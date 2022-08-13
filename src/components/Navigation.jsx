@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Toggle from '../mode/ThemeToggle'
 
 const Navigation = () => {
@@ -63,23 +63,40 @@ const Navigation = () => {
                         </div>
                     </div>
                 </div>
-                <div
-                    className={`items-center md:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
-                    onClick={() => { setNavbar(!navbar) }}
-                >
-                    <div>
-                        <Link to="kewajiban">
-                            Kewajiban
-                        </Link>
+                <div className='flex items-center'>
+                    <div
+                        className={`items-center md:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
+                        onClick={() => { setNavbar(!navbar) }}
+                    >
+                        <div>
+                            <NavLink to="#PokokBahasan">
+                                Pokok Bahasan
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="larangan">
+                                Peraturan Terkait
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="larangan">
+                                Kuis
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="larangan">
+                                Templat
+                            </NavLink>
+                        </div>
+                        <div>
+                            <NavLink to="larangan">
+                                Survei
+                            </NavLink>
+                        </div>
                     </div>
-                    <div>
-                        <Link to="larangan">
-                            Larangan
-                        </Link>
-                    </div>
-                    <div className="hidden md:block">
-                        <Toggle className="" />
-                    </div>
+                </div>
+                <div className="hidden md:block">
+                    <Toggle className="" />
                 </div>
             </div>
         </nav >

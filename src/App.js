@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ScrollToTop from './mode/ScrollToTop';
+import Hukuman from './components/Hukuman';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='kewajiban' element={<KomponenKewajiban />} />
         <Route path='larangan' element={<KomponenLarangan />} />
+        <Route path='hukuman' element={<Hukuman />} />
       </Routes>
       <Footer />
     </div>

@@ -20,13 +20,14 @@ const KomponenKewajiban = () => {
 
     return (
 
-        < div className="dark:bg-[#0f172a] mt-16 min-h-screen" >
+        < div className="dark:bg-[#0f172a] mt-16 min-h-screen dark:text-white" >
             <div className="w-full h-4"></div>
+            <h1 className="text-center text-2xl m-4 font-bold">KEWAJIBAN</h1>
             <input
                 className="shadow m-4 block mx-auto outline outline-1 dark:outline-white p-1 w-1/3 dark:bg-[#0f172a] dark:text-white"
                 type="text"
                 name="cari"
-                placeholder='cari'
+                placeholder='cari kewajiban...'
                 onChange={(e) => setSearch(e.target.value)}
             />
             <div className="dark:text-white w-5/6 lg:w-2/3 mx-auto" >

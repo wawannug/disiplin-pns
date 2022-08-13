@@ -1,13 +1,7 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import Kewajiban from '../assets/icons/kewajiban.svg'
-import Larangan from '../assets/icons/larangan.svg'
-import Pejabat from '../assets/icons/pejabat.svg'
-import Hukuman from '../assets/icons/hukuman.svg'
-import TataCara from '../assets/icons/tata-cara.svg'
-import Dokumentasi from '../assets/icons/dokumentasi.svg'
+import { useNavigate } from 'react-router-dom'
 
-const Komponen = () => {
+const PokokBahasan = () => {
     const navigate = useNavigate()
     return (
         <div className="w-full lg:h-screen flex flex-col justify-center lg:justify-evenly dark:text-white">
@@ -35,7 +29,7 @@ const Komponen = () => {
                 </div>
                 <div
                     className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('kewajiban') }}>
+                    onClick={() => { navigate('larangan') }}>
                     <div className="flex justify-center ">
                         <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
                             <g>
@@ -51,7 +45,7 @@ const Komponen = () => {
                 </div>
                 <div
                     className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('kewajiban') }}>
+                    onClick={() => { navigate('hukuman') }}>
                     <div className="flex justify-center">
                         <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.0" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 1098.000000 1280.000000"
@@ -128,4 +122,4 @@ const Komponen = () => {
     )
 }
 
-export default Komponen
+export default PokokBahasan
