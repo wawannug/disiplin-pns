@@ -7,7 +7,7 @@ const Navigation = () => {
     const [navbar, setNavbar] = useState(false)
 
     return (
-        <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10" >
+        <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10 font-bold" >
             {/* Bungkus/Wrap logo dan link */}
             <div className="justify-between md:flex">
                 {/* Mode Mobile */}
@@ -65,32 +65,37 @@ const Navigation = () => {
                 </div>
                 <div className='flex items-center'>
                     <div
-                        className={`items-center md:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
+                        className={`md:items-center md:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
                         onClick={() => { setNavbar(!navbar) }}
                     >
-                        <div>
-                            <NavLink to="#PokokBahasan">
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                            <NavLink to="/bahasan">
                                 Pokok Bahasan
                             </NavLink>
                         </div>
-                        <div>
-                            <NavLink to="larangan">
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                            <NavLink to="/peraturan">
                                 Peraturan Terkait
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="larangan">
                                 Kuis
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="larangan">
-                                Templat
+                                Templat Surat
                             </NavLink>
                         </div>
-                        <div>
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="larangan">
                                 Survei
+                            </NavLink>
+                        </div>
+                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                            <NavLink to="artikel">
+                                Artikel
                             </NavLink>
                         </div>
                     </div>

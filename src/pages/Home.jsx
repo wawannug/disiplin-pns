@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <HeroTitle />
-            <PokokBahasan id="PokokBahasan" />
+            <PokokBahasan />
             <Peraturan />
         </div>
     )

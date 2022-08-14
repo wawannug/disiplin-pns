@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ScrollToTop from './mode/ScrollToTop';
 import Hukuman from './components/Hukuman';
+import Bahasan from './pages/Bahasan';
+import PeraturanTerkait from './pages/PeraturanTerkait';
+import Artikel from './pages/Artikel'
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route path='kewajiban' element={<KomponenKewajiban />} />
         <Route path='larangan' element={<KomponenLarangan />} />
         <Route path='hukuman' element={<Hukuman />} />
+        <Route path="bahasan" element={<Bahasan />} />
+        <Route path='peraturan' element={<PeraturanTerkait />} />
+        <Route path="artikel" element={<Artikel />} />
       </Routes>
       <Footer />
     </div>

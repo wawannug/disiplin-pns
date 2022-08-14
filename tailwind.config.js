@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Oranienbaum: 'Oranienbaum'
+        Oranienbaum: 'Oranienbaum',
+        'Montserrat-Regular': 'Montserrat-Regular',
       }
     },
   },
