@@ -9,13 +9,13 @@ const KomponenKewajiban = () => {
     const wajib = kewajiban.filter((item) => {
         return search.toLowerCase() === ''
             ? item
-            : item.kewajiban.toLowerCase().includes(search)
+            : item.kewajiban.toLowerCase().includes(search.toLowerCase())
     })
 
     const wajibLain = kewajibanLain.filter((item) => {
         return search.toLowerCase() === ''
             ? item
-            : item.kewajibanLain.toLowerCase().includes(search)
+            : item.kewajibanLain.toLowerCase().includes(search.toLowerCase())
     })
 
     return (

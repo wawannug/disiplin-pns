@@ -1,68 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { pejabat } from '../data/pejabat'
 
 const PejabatBerwenang = () => {
+
+    const [index, setIndex] = useState(0)
+
     return (
         < div className="dark:bg-[#0f172a] mt-16 min-h-screen w-5/6 lg:w-2/3 mx-auto my-4 dark:text-white" >
             <h1 className="text-center text-2xl m-4 font-bold">PEJABAT YANG BERWENANG MENGHUKUM</h1>
             {/* Navigasi Pejabat yang berwenang */}
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-2 justify-center">
                 {pejabat.map((item) => (
-                    <div className="text-center flex items-center justify-center outline p-2 ">{item.jabatan}</div>
+                    <div
+                        onClick={() => setIndex(item.indeks)}
+                        className={`text-center flex items-center justify-center outline p-2 cursor-pointer ${item.indeks === index ? "bg-pink-300" : ""} `}>{item.jabatan}</div>
                 ))}
             </div>
+            {/* <select className="w-2/3">
+                {pejabat.map((item) => (
+                    <option>{item.jabatan}</option>
+                ))}
+            </select> */}
 
-            {/* Presiden - awal */}
+            {/*  - awal -  */}
             <div>
-                <h1 className="text-center font-bold mt-6 text-xl">Presiden</h1>
+                <h1 className="text-center font-bold mt-6 text-xl">{pejabat[index].jabatan}</h1>
                 <div className="outline outline-1 "></div>
-                {/* Pertama */}
-                <div className="p-2 mt-4 bg-slate-300 dark:bg-[#0f172a] dark:outline dark:outline-white rounded-2xl">
-                    Presiden  menetapkan penjatuhan Hukuman Disiplin bagi PNSyang menduduki:<br />
-                    <div className="flex">
-                        <p className="w-4">a.</p>
-                        <p className='text-justify'>Jabatan Pimpinan Tinggi Utama; dan</p>
-                    </div>
-                    <div className="flex">
-                        <p className="w-4">b.</p>
-                        <p className='text-justify'>Jabatan Pimpinan Tinggi Madya yang merupakan Pejabat Pembina Kepegawaian,</p>
-                    </div>
-                    <div>untuk semua jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2), ayat (3), dan ayat (4)</div>
-                </div>
 
-                {/* Kedua */}
-                <div className="p-2 mt-4 bg-slate-300 dark:bg-[#0f172a] dark:outline dark:outline-white rounded-2xl">
-                    Presiden menetapkan penjatuhan Hukuman Disiplin bagi PNSyang menduduki:<br />
-                    <div className="flex">
-                        <p className="w-4">a.</p>
-                        <p className='text-justify'>Jabatan Pimpinan Tinggi Madya;</p>
+                {/* Konten */}
+
+                {pejabat[index].info.map((detil) => (
+                    <div>
+                        <div className="outline outline-black p-2 my-4 rounded-xl text-justify">
+                            {detil.penjelasan}
+                            {detil?.pihak1 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak1}</div>}
+                            {detil?.pihak2 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak2}</div>}
+                            {detil.pihak3 && <div className="pl-1 outline outline-1 outline-black rounded-xl">{detil?.pihak3}</div>}
+                            {detil?.keterangan}
+                        </div>
                     </div>
-                    <div className="flex">
-                        <p className="w-4">b.</p>
-                        <p className='text-justify'>Jabatan Fungsional Jenjang Ahli Utama; dan</p>
-                    </div>
-                    <div className="flex">
-                        <p className="w-4">c.</p>
-                        <p className='text-justify'>Jabatan lain yang pengangkatan dan pemberhentiannya menjadi wewenang Presiden</p>
-                    </div>
-                    <div>untuk jenis Hukuman Disiplin berat sebagaimana dimaksud dalam Pasal 8 ayat (4) huruf c.</div>
-                </div>
+                ))}
             </div>
-
-            {/* Ketiga */}
-            <div className="p-2 mt-4 bg-slate-300 dark:bg-[#0f172a] dark:outline dark:outline-white rounded-2xl">
-                Penjatuhan Hukuman Disiplin sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan berdasarkan usul:<br />
-                <div className="flex">
-                    <p className="w-4">a.</p>
-                    <p className='text-justify'> Menteri yang mengoordinasikan bagi PNS yang menduduki Jabatan Pimpinan Tinggi Utama; dan</p>
-                </div>
-                <div className="flex">
-                    <p className="w-4">b.</p>
-                    <p className='text-justify'>Pejabat Pembina Kepegawaian bagi PNS yang menduduki Jabatan Pimpinan Tinggi Madya dan jabatan lain yang pengangkatan dan pemberhentiannya menjadi wewenang Presiden.</p>
-                </div>
-            </div>
-
-            {/* Presiden - akhir */}
         </div >
     )
 }

@@ -12,6 +12,7 @@ import PeraturanTerkait from './pages/PeraturanTerkait';
 import Artikel from './pages/Artikel'
 import Pejabat from './pages/Pejabat';
 import Pemeriksaan from './pages/Pemeriksaan'
+import BerlakuHukuman from './pages/BerlakuHukuman';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="artikel" element={<Artikel />} />
         <Route path="pejabat" element={<Pejabat />} />
         <Route path="pemeriksaan" element={<Pemeriksaan />} />
+        <Route path="berlaku" element={<BerlakuHukuman />} />
       </Routes>
       <Footer />
     </div>

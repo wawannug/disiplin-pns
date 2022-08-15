@@ -8,7 +8,7 @@ const KomponenLarangan = () => {
     const larang = larangan.filter((item) => {
         return search.toLowerCase() === ''
             ? item
-            : item.larangan.toLowerCase().includes(search)
+            : item.larangan.toLowerCase().includes(search.toLowerCase())
     })
 
     return (
