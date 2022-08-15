@@ -6,7 +6,7 @@ import { Slide } from 'react-reveal';
 const PokokBahasan = () => {
     const navigate = useNavigate()
     return (
-        <div id="pokokbahasan" className="w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-center lg:justify-evenly dark:text-white">
+        <div className="w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-center lg:justify-evenly dark:text-white">
             <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                 <Bounce bottom >
                     POKOK BAHASAN
@@ -84,7 +84,7 @@ const PokokBahasan = () => {
                     </div>
                     <div
                         className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                        onClick={() => { navigate('kewajiban') }}>
+                        onClick={() => { navigate('/pejabat') }}>
                         <div className="flex justify-center">
                             <svg
                                 className="w-2/3 h-32 my-4 fill-current dark:text-white"
@@ -101,7 +101,7 @@ const PokokBahasan = () => {
                     </div>
                     <div
                         className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                        onClick={() => { navigate('kewajiban') }}>
+                        onClick={() => { navigate('/pemeriksaan') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                 enable-background="new 0 0 24 24"><path d="M8.5,6H6.7C8.2,4.7,10,4,12,4c0.3,0,0.6,0,0.9,0.1c0,0,0,0,0,0c0.5,0.1,1-0.3,1.1-0.9c0.1-0.5-0.3-1-0.9-1.1C12.7,2,12.4,2,12,2C9.6,2,7.3,2.9,5.5,4.4V3c0-0.6-0.4-1-1-1s-1,0.4-1,1v4c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1S9.1,6,8.5,6z M7,14.5c-0.6,0-1,0.4-1,1v1.8C4.7,15.8,4,14,4,12c0-0.3,0-0.6,0.1-0.9c0,0,0,0,0,0c0.1-0.5-0.3-1-0.9-1.1c-0.5-0.1-1,0.3-1.1,0.9C2,11.3,2,11.6,2,12c0,2.4,0.9,4.7,2.4,6.5H3c-0.6,0-1,0.4-1,1s0.4,1,1,1h4c0.3,0,0.6-0.2,0.8-0.4c0,0,0,0,0,0c0,0,0,0,0,0c0-0.1,0.1-0.2,0.1-0.3c0-0.1,0-0.1,0-0.2c0,0,0-0.1,0-0.1v-4C8,14.9,7.6,14.5,7,14.5z M21,5.5c0.6,0,1-0.4,1-1s-0.4-1-1-1h-4c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-0.1,0-0.2,0.1-0.3,0.1c0,0,0,0,0,0c-0.1,0.1-0.2,0.1-0.2,0.2c0,0,0,0,0,0c0,0,0,0,0,0c0,0.1-0.1,0.2-0.1,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1v4c0,0.6,0.4,1,1,1s1-0.4,1-1V6.7c1.3,1.4,2,3.3,2,5.3c0,0.3,0,0.6-0.1,0.9c-0.1,0.5,0.3,1,0.9,1.1c0,0,0.1,0,0.1,0c0.5,0,0.9-0.4,1-0.9c0-0.4,0.1-0.7,0.1-1.1c0-2.4-0.9-4.7-2.4-6.5H21z M20.3,16.5c-0.1-0.1-0.2-0.2-0.3-0.3c0,0,0,0,0,0c0,0,0,0,0,0c-0.1-0.1-0.2-0.1-0.3-0.1c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0h-4c-0.6,0-1,0.4-1,1s0.4,1,1,1h1.8c-1.4,1.3-3.3,2-5.3,2c-0.3,0-0.6,0-0.9-0.1c0,0,0,0,0,0c-0.5-0.1-1,0.3-1.1,0.9s0.3,1,0.9,1.1c0.4,0,0.7,0.1,1.1,0.1c2.4,0,4.7-0.9,6.5-2.4V21c0,0.6,0.4,1,1,1s1-0.4,1-1v-4C20.5,16.8,20.4,16.6,20.3,16.5C20.3,16.5,20.3,16.5,20.3,16.5z" />
@@ -114,7 +114,7 @@ const PokokBahasan = () => {
                     </div>
                     <div
                         className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                        onClick={() => { navigate('kewajiban') }}>
+                        onClick={() => { navigate('pemeriksaan') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M640 170.666667H256v682.666666h512V298.666667h-128V170.666667zM256 85.333333h426.666667l170.666666 170.666667v597.333333a85.333333 85.333333 0 0 1-85.333333 85.333334H256a85.333333 85.333333 0 0 1-85.333333-85.333334V170.666667a85.333333 85.333333 0 0 1 85.333333-85.333334z m85.333333 384h341.333334v85.333334H341.333333v-85.333334z m0 170.666667h341.333334v85.333333H341.333333v-85.333333z" /></svg>
                             {/* <img src={Dokumentasi} className="h-32 my-4" /> */}

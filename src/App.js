@@ -10,6 +10,8 @@ import Hukuman from './components/Hukuman';
 import Bahasan from './pages/Bahasan';
 import PeraturanTerkait from './pages/PeraturanTerkait';
 import Artikel from './pages/Artikel'
+import Pejabat from './pages/Pejabat';
+import Pemeriksaan from './pages/Pemeriksaan'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="bahasan" element={<Bahasan />} />
         <Route path='peraturan' element={<PeraturanTerkait />} />
         <Route path="artikel" element={<Artikel />} />
+        <Route path="pejabat" element={<Pejabat />} />
+        <Route path="pemeriksaan" element={<Pemeriksaan />} />
       </Routes>
       <Footer />
     </div>

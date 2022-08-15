@@ -1,20 +1,21 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Toggle from '../mode/ThemeToggle'
+import Logo from '../assets/icons/DJKN.png'
 
 const Navigation = () => {
 
     const [navbar, setNavbar] = useState(false)
 
     return (
-        <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10 font-bold" >
+        <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10 font-bold shadow-md shadow-[#718d38] dark:shadow-none" >
             {/* Bungkus/Wrap logo dan link */}
             <div className="justify-between md:flex">
                 {/* Mode Mobile */}
                 <div className="flex justify-between items-center h-12">
                     <div className="dark:text-white">
                         <Link to="/">
-                            Beranda
+                            <img src={Logo} className="h-8 bg-lime-200 shadow-xl  rounded p-1 " />
                         </Link>
                     </div>
                     <div className="flex">

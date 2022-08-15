@@ -20,7 +20,7 @@ const Peraturan = () => {
                 {daftarPeraturan.map((item) => (
                     <Zoom>
                         <a
-                            className="flex flex-col text-center justify-center items-centerh-32 w-full bg-[#D4FF80] dark:bg-[#0f172a] dark:text-white dark:outline dark:outline-white rounded-xl p-3"
+                            className="flex flex-col text-center justify-center items-centerh-32 w-full bg-[#D4FF80] hover:bg-[#718d38] dark:bg-[#0f172a] dark:text-white dark:outline dark:outline-white rounded-xl p-3"
                             href={item.link}
                             target="_blank"
                         >

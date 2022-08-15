@@ -1,10 +1,8 @@
 import React from 'react'
 import { daftarPeraturan } from '../data/daftarPeraturan'
-import { useNavigate } from 'react-router-dom'
+
 
 const PeraturanTerkait = () => {
-
-    const navigate = useNavigate()
 
     return (
         <div className="mt- 16 w-full lg:h-screen flex flex-col lg:flex-row justify-center items-center lg:justify-evenly dark:bg-[#0f172a]">
