@@ -1,16 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Bounce from 'react-reveal/Bounce';
 import { Slide } from 'react-reveal';
 
 const PokokBahasan = () => {
     const navigate = useNavigate()
     return (
-        <div className="w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-center lg:justify-evenly dark:text-white">
-            <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
-                <Bounce bottom >
+        <div className="w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-evenly dark:text-white">
+            <div className="text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
+                <Slide top>
                     POKOK BAHASAN
-                </Bounce>
+                </Slide>
             </div>
             <Slide bottom>
                 <div

@@ -20,7 +20,7 @@ const KomponenKewajiban = () => {
 
     return (
 
-        < div className="dark:bg-[#0f172a] mt-16 min-h-screen dark:text-white" >
+        < div className="dark:bg-[#0f172a] mt-16 mb-10 min-h-screen dark:text-white" >
             <div className="w-full h-4"></div>
             <h1 className="text-center text-2xl m-4 font-bold">KEWAJIBAN</h1>
             <input

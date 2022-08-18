@@ -282,10 +282,10 @@ export const hukuman = [
                 wajib: 'Masuk Kerja dan menaati ketentuan jam kerja',
                 dampak: '',
                 rincian: [
-                    'penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 21 (dua puluh satu) sampai dengan 24 (dua puluh empat) hari kerja dalam 1 (satu) tahun; <br/>   ',
-                    'pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 25 (dua puluh lima) sampai dengan 27 (dua puluh tujuh) hari kerja dalam 1 (satu) tahun;    ',
-                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 28 (dua puluh delapan) hari kerja atau lebih dalam 1 (satu) tahun; ',
-                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secaraterus menerus selama 10 (sepuluh) hari kerja;    '
+                    'penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 21 (dua puluh satu) sampai dengan 24 (dua puluh empat) hari kerja dalam 1 (satu) tahun; <br />',
+                    'pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 25 (dua puluh lima) sampai dengan 27 (dua puluh tujuh) hari kerja dalam 1 (satu) tahun <br />;',
+                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 28 (dua puluh delapan) hari kerja atau lebih dalam 1 (satu) tahun;  <br />',
+                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secaraterus menerus selama 10 (sepuluh) hari kerja;'
                 ]
             },
             {

@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         Oranienbaum: 'Oranienbaum',
         'Montserrat-Regular': 'Montserrat-Regular',
+      },
+      backgroundImage: {
+        background: "url('assets/images/background.jpg')"
       }
     },
   },

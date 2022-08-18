@@ -80,17 +80,17 @@ const Navigation = () => {
                             </NavLink>
                         </div>
                         <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
-                            <NavLink to="larangan">
+                            <NavLink to="/kuis">
                                 Kuis
                             </NavLink>
                         </div>
                         <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
-                            <NavLink to="larangan">
+                            <NavLink to="/templat">
                                 Templat Surat
                             </NavLink>
                         </div>
                         <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
-                            <NavLink to="larangan">
+                            <NavLink to="/survei">
                                 Survei
                             </NavLink>
                         </div>

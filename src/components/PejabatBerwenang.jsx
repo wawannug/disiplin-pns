@@ -6,7 +6,7 @@ const PejabatBerwenang = () => {
     const [index, setIndex] = useState(0)
 
     return (
-        < div className="dark:bg-[#0f172a] mt-16 min-h-screen w-5/6 lg:w-2/3 mx-auto my-4 dark:text-white" >
+        < div className="dark:bg-[#0f172a] mt-20 mb-10 min-h-screen w-5/6 lg:w-2/3 mx-auto my-4 dark:text-white" >
             <h1 className="text-center text-2xl m-4 font-bold">PEJABAT YANG BERWENANG MENGHUKUM</h1>
             {/* Navigasi Pejabat yang berwenang */}
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-2 justify-center">
