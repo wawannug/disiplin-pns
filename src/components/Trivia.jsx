@@ -36,20 +36,14 @@ export default function Trivia({
     const handleClick = (a) => {
         setSelectedAnswer(a);
         setClassName("answer active");
-        delay(3000, () => {
+        delay(1000, () => {
             setClassName(a.correct ? "answer correct" : "answer wrong");
         });
-        // setTimeout(() => {
-        //   setClassName(a.correct ? "answer correct" : "answer wrong");
-        // }, 3000);
 
-        // setTimeout(() => {
         delay(5000, () => {
             if (a.correct) {
-                console.log(questionNumber)
                 // correctAnswer();
                 delay(1000, () => {
-
                     if (questionNumber === kuis.length) {
                         setTimeOut(true)
                     } else {
@@ -69,11 +63,11 @@ export default function Trivia({
     return (
         <div className="h-full flex flex-col items-center justify-around ">
             <div className="w-full md:w-4/5 bg-gradient-to-b from-[#100240] to-black text-center p-5 rounded-2xl border-2 text-lg ">{question?.question}</div>
-            <div className="w-full flex justify-center flex-wrap">
+            <div className="answers">
                 {question?.answers.map((a) => (
                     <div
                         key={a.text}
-                        className={selectedAnswer === a ? className : "w-full md:w-2/5 p-2 bg-gradient-to-b from-[#0e0124] to-[#22074d] rounded-2xl cursor-pointer mx-2 mb-3 border-2 text-center text-lg"}
+                        className={selectedAnswer === a ? className : "answer"}
                         onClick={() => !selectedAnswer && handleClick(a)}
                     >
                         {a.text}

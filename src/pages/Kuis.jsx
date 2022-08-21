@@ -52,11 +52,9 @@ function Kuis() {
                                 </div>
                             ) : (
                                 <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
-                                    <h1 className="relative top-0 bottom-0 left-0 right-0 m-auto">Mohon maaf, jawaban Anda salah, Anda terhenti di level ke-{earned + 1}</h1>
+                                    <h1 className="relative top-0 bottom-0 left-0 right-0 m-auto">Mohon maaf, jawaban Anda salah, Anda terhenti di level ke-{Number(earned) + 1}</h1>
                                 </div>
-
                             )
-
                         ) : (
                             <>
                                 <div className="h-1/4 relative">

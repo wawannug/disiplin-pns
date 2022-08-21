@@ -143,7 +143,7 @@ export const pemeriksaan = [
     },
     {
         id: 7,
-        bagian: "Hukuman Disiplin",
+        bagian: "Hukuman Disiplin oleh Pejabat yang Berwenang Menghukum",
         konten: [
             {
                 uraian: "Berdasarkan basil pemeriksaan sebagaimana dimaksud dalam Pasal 27 dan Pasal 28 Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",

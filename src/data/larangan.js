@@ -4,11 +4,11 @@ export const larangan = [
         larangan: "menyalahgunakan wewenang",
         uraian: [],
         ikon: "larangan-a-wewenang",
-        penjelasan: "Yang dimaksud dengan \"menyalahgunakan wewenang\" meliputi tindakan melampaui wewenang, mencampuradukkan wewenang, dan/ atau bertindak sewenang-wenang. Lingkup penyalahgunaan wewenang termasuk tindakan melakukan sesuatu atau tidak melakukan sesuatu untuk kepentingan pribadi atau kepentingan pihak lain yang tidak sesuai dengan tujuan pemberian kewenangan tersebut."
+        penjelasan: "Yang dimaksud dengan \"menyalahgunakan wewenang\" meliputi tindakan melampaui wewenang, mencampuradukkan wewenang, dan/atau bertindak sewenang-wenang. Lingkup penyalahgunaan wewenang termasuk tindakan melakukan sesuatu atau tidak melakukan sesuatu untuk kepentingan pribadi atau kepentingan pihak lain yang tidak sesuai dengan tujuan pemberian kewenangan tersebut."
     },
     {
         id: "b",
-        larangan: "menjadi perantara untuk mendapatkan keuntungan pribadi dan/ atau orang lain dengan menggunakan kewenangan orang lain yang diduga terjadi konflik kepentingan dengan jabatan",
+        larangan: "menjadi perantara untuk mendapatkan keuntungan pribadi dan/atau orang lain dengan menggunakan kewenangan orang lain yang diduga terjadi konflik kepentingan dengan jabatan",
         uraian: [],
         ikon: "larangan-b-perantara",
         penjelasan: "Cukup jelas"
@@ -53,7 +53,7 @@ export const larangan = [
         larangan: "melakukan kegiatan yang merugikan negara",
         uraian: [],
         ikon: "larangan-h-kerugian",
-        penjelasan: "Yang dimaksud dengan \"melakukan kegiatan yang merugikan negara\" termasuk kegiatan yang dilakukan bersarna dengan atasan, teman sejawat, bawahan, atau orang lain di dalarn maupun di luar lingkungan kerjanya dengan tujuan untuk keuntungan pribadi, golongan, atau pihak lain, baik secara langsung rnaupun tidak langsung yang mengakibatkan kerugian keuangan negara."
+        penjelasan: "Yang dimaksud dengan \"melakukan kegiatan yang merugikan negara\" termasuk kegiatan yang dilakukan bersama dengan atasan, teman sejawat, bawahan, atau orang lain di dalam maupun di luar lingkungan kerjanya dengan tujuan untuk keuntungan pribadi, golongan, atau pihak lain, baik secara langsung maupun tidak langsung yang mengakibatkan kerugian keuangan negara."
     },
     {
         id: "i",
@@ -71,17 +71,17 @@ export const larangan = [
     },
     {
         id: "k",
-        larangan: "menerima hadiah yang berhubungan dengan jabatan dan/ atau pekerjaan",
+        larangan: "menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaan",
         uraian: [],
         ikon: "larangan-k-hadiah",
-        penjelasan: "Yang dimaksud dengan \"menerirna hadiah yang berhubungan dengan jabatan dan/ atau pekerjaan\" termasuk menerima hadiah, padahal diketahui dan patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya"
+        penjelasan: "Yang dimaksud dengan \"menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaan\" termasuk menerima hadiah, padahal diketahui dan patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya"
     },
     {
         id: "l",
         larangan: "meminta sesuatu yang berhubungan dengan jabatan",
         uraian: [],
         ikon: "larangan-l-menerima",
-        penjelasan: "Yang dimaksud dengan \"menerima hadiah yang berhubungan dengan jabatan dan/ atau pekerjaan\" termasuk menerima hadiah, padahal diketahui dan patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya"
+        penjelasan: "Yang dimaksud dengan \"menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaan\" termasuk menerima hadiah, padahal diketahui dan patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya"
     },
     {
         id: "m",
@@ -103,7 +103,7 @@ export const larangan = [
                 {
                     id: 2,
                     poin: "Menjadi peserta kampanye dengan menggunakan atribut partai atau atribut PNS",
-                    detil: "Yang dimaksud dengan \"menggunakan atribut partai\" adalah dengan menggunakan dan/ atau memanfaatkan pakaian, kendaraan, atau media lain yang bergambar partai politik, calon Presiden/Wakil Presiden, calon Kepala Daerah/Wakil Kepala Daerah, calon anggota Dewan Perwakilan Rakyat, calon anggota Dewan Perwakilan Daerah, calon anggota Dewan Perwakilan Rakyat Daerah dalam masa kampanye.Yang dimaksud \"menggunakan atribut PNS\" adalah menggunakan seragam Korpri, seragam dinas, kendaraan dinas, dan lain-lain."
+                    detil: "Yang dimaksud dengan \"menggunakan atribut partai\" adalah dengan menggunakan dan/atau memanfaatkan pakaian, kendaraan, atau media lain yang bergambar partai politik, calon Presiden/Wakil Presiden, calon Kepala Daerah/Wakil Kepala Daerah, calon anggota Dewan Perwakilan Rakyat, calon anggota Dewan Perwakilan Daerah, calon anggota Dewan Perwakilan Rakyat Daerah dalam masa kampanye.Yang dimaksud \"menggunakan atribut PNS\" adalah menggunakan seragam Korpri, seragam dinas, kendaraan dinas, dan lain-lain."
                 },
                 {
                     id: 3,
@@ -120,7 +120,7 @@ export const larangan = [
                 },
                 {
                     id: 6,
-                    poin: "mengadakan kegiatan yang mengarah kepada keberpihakan terhadap pasangan calon yang menjadi peserta pemilu sebelum, selarna, dan sesudah masa kampanye meliputi pertemuan, ajakan, himbauan, seruan, atau pemberian barang kepada PNS dalam lingkungan unit kerjanya, anggota keluarga, dan masyarakat"
+                    poin: "mengadakan kegiatan yang mengarah kepada keberpihakan terhadap pasangan calon yang menjadi peserta pemilu sebelum, selama, dan sesudah masa kampanye meliputi pertemuan, ajakan, himbauan, seruan, atau pemberian barang kepada PNS dalam lingkungan unit kerjanya, anggota keluarga, dan masyarakat"
                 },
                 {
                     id: 7,

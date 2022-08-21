@@ -1,7 +1,7 @@
 export const kewajibanLain = [
     {
         id: "a",
-        kewajibanLain: "menghadiri dan mengucapkan sumpah/ janji PNS",
+        kewajibanLain: "menghadiri dan mengucapkan sumpah/janji PNS",
         ikon: "kla",
         penjelasan: "Cukup jelas"
     },

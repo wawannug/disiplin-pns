@@ -89,7 +89,7 @@ export const kuis = [
     },
     {
         id: 5,
-        question: "Berikut yang tidak termasuk jenis Hukuman Disiplin berat adalah….",
+        question: "Berikut yang tidak termasuk jenis Hukuman Disiplin berat berdasarkan PP Nomor 94 Tahun 2021 adalah….",
         answers: [
             {
                 text: "penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
@@ -104,7 +104,7 @@ export const kuis = [
                 correct: false,
             },
             {
-                text: "",
+                text: "penurunan jabatan setingkat lebih rendah selama 3 (tiga) tahun",
                 correct: true,
             },
         ]
@@ -148,7 +148,7 @@ export const kuis = [
                 correct: false,
             },
             {
-                text: "...",
+                text: "Aparat Pengawas Intern Pemerintah",
                 correct: true,
             },
         ]
@@ -162,15 +162,15 @@ export const kuis = [
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin lebih ringan PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin lebih ringan dari PNS yang diduga melakukan pelanggaran",
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin sama dengan PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin sama dengan dari PNS yang diduga melakukan pelanggaran",
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin lebih berat PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin lebih berat dari PNS yang diduga melakukan pelanggaran",
                 correct: true,
             },
         ]
@@ -214,7 +214,7 @@ export const kuis = [
                 correct: true,
             },
             {
-                text: "d.	Atasan langsung dan pejabat lain yang ditunjuk",
+                text: "Atasan langsung dan pejabat lain yang ditunjuk",
                 correct: false,
             },
         ]
@@ -265,67 +265,67 @@ export const kuis = [
     },
     {
         id: 13,
-        question: "",
+        question: "Dalam hal PNS yang diperiksa tidak bersedia menandatangani berita acara pemeriksaan, maka ....",
         answers: [
             {
-                text: "",
-                correct: false,
-            },
-            {
-                text: "",
+                text: "berita acara pemeriksaan tetap dijadikan sebagai dasar untuk menjatuhkan hukuman disiplin",
                 correct: true,
             },
             {
-                text: "",
+                text: "PNS yang bersangkutan diberi waktu perpanjangan untuk menandatangani berita acara pemeriksaan",
                 correct: false,
             },
             {
-                text: "",
+                text: "berita acara pemeriksaan tersebut tidak dijadikan sebagai dasar untuk menjatuhkan hukuman disiplin",
+                correct: false,
+            },
+            {
+                text: "dilakukan pengulangan terhadap pemeriksaan dugaan pelanggaran kewajiban dan/atau larangan ",
                 correct: false,
             },
         ]
     },
     {
         id: 14,
-        question: "",
+        question: "PNS yang berdasarkan hasil pemeriksaan ternyata melakukan beberapa pelanggaran disiplin, terhadapnya ....",
         answers: [
             {
-                text: "",
+                text: "dijatuhi semua jenis hukuman disiplin yang didapatkannya",
                 correct: false,
             },
             {
-                text: "",
+                text: "dijatuhi 2 jenis hukuman disiplin yang terberat",
+                correct: false,
+            },
+            {
+                text: "hanya dapat dijatuhi 1 jenis hukuman disiplin yang terberat",
                 correct: true,
             },
             {
-                text: "",
-                correct: false,
-            },
-            {
-                text: "",
+                text: "dijatuhi jenis hukuman yang lebih berat dari yang didapatkannya",
                 correct: false,
             },
         ]
     },
     {
         id: 15,
-        question: "",
+        question: "Keputusan Hukuman Disiplin beralku pada hari ke ....",
         answers: [
             {
-                text: "",
+                text: "10 sejak ditetapkan keputusan",
                 correct: false,
             },
             {
-                text: "",
+                text: "15 sejak ditetapkan keputusan",
+                correct: false,
+            },
+            {
+                text: "14 sejak diterima",
+                correct: false,
+            },
+            {
+                text: "15 sejak diterima",
                 correct: true,
-            },
-            {
-                text: "",
-                correct: false,
-            },
-            {
-                text: "",
-                correct: false,
             },
         ]
     },

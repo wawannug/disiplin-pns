@@ -10,19 +10,22 @@ function Hukuman() {
     return (
         < div className="dark:bg-[#0f172a] mt-20 mb-10 min-h-screen w-5/6 lg:w-2/3 mx-auto dark:text-white" >
             <h1 className="text-center text-2xl m-4 font-bold">TINGKAT DAN JENIS HUKUMAN</h1>
-            <div className="flex justify-center gap-4 m-4  outline">
-                <button onClick={() => setRingan(!ringan)} className={`outline outline-1 p-1 m-2 ${ringan === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Ringan</button>
-                <button onClick={() => setSedang(!sedang)} className={`outline outline-1 p-1 m-2 ${sedang === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Sedang</button>
-                <button onClick={() => setBerat(!berat)} className={`outline outline-1 p-1 m-2 ${berat === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Berat</button>
+            <div className="outline">
+                <div className="flex justify-center gap-1 mx-4 flex-wrap">
+                    <button onClick={() => setRingan(!ringan)} className={`outline outline-1 p-1 m-2 ${ringan === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Ringan</button>
+                    <button onClick={() => setSedang(!sedang)} className={`outline outline-1 p-1 m-2 ${sedang === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Sedang</button>
+                    <button onClick={() => setBerat(!berat)} className={`outline outline-1 p-1 m-2 ${berat === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Berat</button>
+                </div>
+                <div className="text-center">Pilih kategori tingkat hukuman</div>
             </div>
 
             {/* Awal Hukuman Disiplin Ringan */}
             {ringan === true && (
                 <div>
                     <h2 className="text-center text-xl mt-6">Hukuman Disiplin {hukuman[0].tingkat}</h2>
-                    <div className="flex justify-between outline outline-1">
+                    <div className="flex justify-between outline outline-1 flex-col md:flex-row">
                         {hukuman[0].jenis.map((item) => (
-                            <div className="outline outline-1 flex flex-1 m-2 p-2 justify-center text-center items-center ">{item}</div>
+                            <div className="outline outline-1 flex flex-1 m-2 p-2 justify-center text-center items-center">{item}</div>
                         ))}
                     </div>
 
@@ -113,7 +116,7 @@ function Hukuman() {
             {sedang === true && (
                 <div>
                     <h2 className="text-center text-xl mt-6">Hukuman Disiplin {hukuman[1].tingkat}</h2>
-                    <div className="flex justify-between outline outline-1">
+                    <div className="flex justify-between outline outline-1 flex-col md:flex-row">
                         {hukuman[1].jenis.map((item) => (
                             <div className="outline outline-1 flex flex-1 m-2 p-2 justify-center text-center items-center ">{item}</div>
                         ))}
@@ -206,7 +209,7 @@ function Hukuman() {
             {berat === true && (
                 <div>
                     <h2 className="text-center text-xl mt-6">Hukuman Disiplin {hukuman[2].tingkat}</h2>
-                    <div className="flex justify-between outline outline-1">
+                    <div className="flex justify-between outline outline-1 flex-col md:flex-row">
                         {hukuman[2].jenis.map((item) => (
                             <div className="outline outline-1 flex flex-1 m-2 p-2 justify-center text-center items-center ">{item}</div>
                         ))}

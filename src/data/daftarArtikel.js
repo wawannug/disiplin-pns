@@ -15,6 +15,6 @@ export const daftarArtikel = [
         id: 3,
         judul: "Prosedur dan Tata Cara Pemeriksaan",
         gambar: "artikel3.jpg",
-        link: "artikel3"
+        link: "/artikel3"
     },
 ]
