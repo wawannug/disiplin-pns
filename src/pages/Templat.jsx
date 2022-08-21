@@ -10,7 +10,7 @@ const Templat = () => {
                 </div>
                 <div className="mt-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 text-items justify-center">
                     {templat.map((item) => (
-                        <div className="outline outline-1 h-52 p-2 text-center leading-[28px] hover:bg-slate-400 hover:text-white hover:scale-105 hover:outline-black duration-300 cursor-pointer">{item.judul}</div>
+                        <div className="outline outline-1 h-56 p-2 text-center hover:bg-slate-400 hover:text-white hover:scale-105 hover:outline-black duration-300 cursor-pointer">{item.judul}</div>
                     ))}
                 </div>
             </div>

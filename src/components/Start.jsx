@@ -8,14 +8,14 @@ export default function Start({ setUsername }) {
     };
 
     return (
-        <div className="start text-black">
+        <div className=" flex items-center justify-center flex-col gap-4 mx-auto w-2/3 md:w-1/3 lg:w-1/4" >
             <input
-                className="startInput"
-                placeholder="enter your name"
+                className="w-full text-center p-1 rounded-xl focus:outline-none text-black"
+                placeholder="Nama Anda..."
                 ref={inputRef}
             />
-            <button className="startButton" onClick={handleClick}>
-                Start
+            <button className="outline outline-1 p-2 rounded-xl" onClick={handleClick}>
+                Mulai Kuis
             </button>
         </div>
     );

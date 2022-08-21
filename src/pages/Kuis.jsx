@@ -1,63 +1,103 @@
-import React, { useState, useMemo } from 'react'
-import { kuis } from '../data/kuis'
+import "./Kuis.css";
+import { useEffect, useMemo, useState } from "react";
+import Start from '../components/Start'
+import Timer from "../components/Timer";
+import Trivia from "../components/Trivia";
+import { kuis } from "../data/kuis"
 
+function Kuis() {
+    const [username, setUsername] = useState(null);
+    const [timeOut, setTimeOut] = useState(false);
+    const [questionNumber, setQuestionNumber] = useState(1);
+    const [earned, setEarned] = useState(0);
 
-
-const Kuis = () => {
-
-    const level = useMemo(
+    const moneyPyramid = useMemo(
         () =>
             [
-                { id: 1, level: "Level 1" },
-                { id: 2, level: "Level 2" },
-                { id: 3, level: "Level 3" },
-                { id: 4, level: "Level 4" },
-                { id: 5, level: "Level 5" },
-                { id: 6, level: "Level 6" },
-                { id: 7, level: "Level 7" },
-                { id: 8, level: "Level 8" },
-                { id: 9, level: "Level 9" },
-                { id: 10, level: "Level 10" },
-                { id: 11, level: "Level 11" },
-                { id: 12, level: "Level 12" },
-                { id: 13, level: "Level 13" },
-                { id: 14, level: "Level 14" },
-                { id: 15, level: "Level 15" },
+                { id: 1, level: "1" },
+                { id: 2, level: "2" },
+                { id: 3, level: "3" },
+                { id: 4, level: "4" },
+                { id: 5, level: "5" },
+                { id: 6, level: "6" },
+                { id: 7, level: "7" },
+                { id: 8, level: "8" },
+                { id: 9, level: "9" },
+                { id: 10, level: "10" },
+                { id: 11, level: "11" },
+                { id: 12, level: "12" },
+                { id: 13, level: "13" },
+                { id: 14, level: "14" },
+                { id: 15, level: "15" },
             ].reverse(),
         []
     );
 
-
-
-    const [number, setNumber] = useState(0);
-
-    const answerSubmit = (e) => {
-        e.preventDefault();
-        console.log(e);
-    }
+    useEffect(() => {
+        questionNumber > 1 &&
+            setEarned(moneyPyramid.find((m) => m.id === questionNumber - 1).level);
+    }, [questionNumber, moneyPyramid]);
 
     return (
-        < div className="dark:bg-[#0f172a] mt-16 min-h-screen dark:text-white" >
-            <div className="flex">
-                <div className="bg-[url('assets/images/background.jpg')] w-full md:w-2/3 h-screen bg-center">
-                    <div>
+        <div className="min-h-screen flex bg-[#020230] text-white">
+            {!username ? (
+                <Start setUsername={setUsername} />
+            ) : (
+                <>
+                    <div className="w-3/4 flex flex-col bg-[url('/src/assets/images/background.jpg')] bg-no-repeat bg-cover bg-center">
+                        {timeOut ? (
+                            questionNumber === kuis.length ? (
+                                <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
+                                    <h1 className="">Selamat {username}, Anda berhasil memenangkan kuis ini</h1>
+                                </div>
+                            ) : (
+                                <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
+                                    <h1 className="relative top-0 bottom-0 left-0 right-0 m-auto">Mohon maaf, jawaban Anda salah, Anda terhenti di level ke-{earned + 1}</h1>
+                                </div>
 
+                            )
+
+                        ) : (
+                            <>
+                                <div className="h-1/4 relative">
+                                    <div className="w-[56px] h-[56px] ml-[-28px] timer left-1/2 text-xl font-bold flex items-center justify-center absolute border-4 rounded-full bottom-[10px]">
+                                        <Timer
+                                            setTimeOut={setTimeOut}
+                                            questionNumber={questionNumber}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="h-3/4">
+                                    <Trivia
+                                        kuis={kuis}
+                                        questionNumber={questionNumber}
+                                        setQuestionNumber={setQuestionNumber}
+                                        setTimeOut={setTimeOut}
+                                    />
+                                </div>
+                            </>
+                        )}
                     </div>
-                    <div>
-
+                    <div className="md:w-1/4 flex items-center justify-center">
+                        <ul className=" mt-20 mb-4">
+                            {moneyPyramid.map((m) => (
+                                <li
+                                    key={m.id}
+                                    className={
+                                        questionNumber === m.id
+                                            ? "bg-teal-500 flex items-center rounded-md"
+                                            : "flex items-center rounded-md"
+                                    }
+                                >
+                                    <span className="text-xl p-1 mx-auto text-center justify-self-center" key={m.id}>Level {m.level}</span>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
-                </div>
-                <div className='items-center justify-center text-center flex mx-auto'>
-                    <ul className="">
-                        {level.map((item) => (
-                            <li>{item.level}</li>
-                        ))}
-
-                    </ul>
-                </div>
-            </div >
-        </div >
-    )
+                </>
+            )}
+        </div>
+    );
 }
 
-export default Kuis
+export default Kuis;

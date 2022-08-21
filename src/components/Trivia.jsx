@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 // import wrong from "../sounds/wrong.mp3";
 
 export default function Trivia({
-    data,
+    kuis,
     questionNumber,
     setQuestionNumber,
     setTimeOut,
@@ -21,9 +21,11 @@ export default function Trivia({
     //     letsPlay();
     // }, [letsPlay]);
 
+
+
     useEffect(() => {
-        setQuestion(data[questionNumber - 1]);
-    }, [data, questionNumber]);
+        setQuestion(kuis[questionNumber - 1]);
+    }, [kuis, questionNumber]);
 
     const delay = (duration, callback) => {
         setTimeout(() => {
@@ -44,34 +46,34 @@ export default function Trivia({
         // setTimeout(() => {
         delay(5000, () => {
             if (a.correct) {
+                console.log(questionNumber)
                 // correctAnswer();
                 delay(1000, () => {
-                    setQuestionNumber((prev) => prev + 1);
-                    setSelectedAnswer(null);
+
+                    if (questionNumber === kuis.length) {
+                        setTimeOut(true)
+                    } else {
+                        setQuestionNumber((prev) => prev + 1);
+                        setSelectedAnswer(null);
+                    }
                 });
-                // setTimeout(() => {
-                //   setQuestionNumber((prev) => prev + 1);
-                //   setSelectedAnswer(null);
-                // }, 1000);
             } else {
                 // wrongAnswer();
                 delay(1000, () => {
                     setTimeOut(true);
                 });
-                // setTimeout(() => {
-                //   setTimeOut(true);
-                // }, 1000);
+
             }
-            // }, 5000);
         })
     };
     return (
-        <div className="trivia">
-            <div className="question">{question?.question}</div>
-            <div className="answers">
+        <div className="h-full flex flex-col items-center justify-around ">
+            <div className="w-full md:w-4/5 bg-gradient-to-b from-[#100240] to-black text-center p-5 rounded-2xl border-2 text-lg ">{question?.question}</div>
+            <div className="w-full flex justify-center flex-wrap">
                 {question?.answers.map((a) => (
                     <div
-                        className={selectedAnswer === a ? className : "answer"}
+                        key={a.text}
+                        className={selectedAnswer === a ? className : "w-full md:w-2/5 p-2 bg-gradient-to-b from-[#0e0124] to-[#22074d] rounded-2xl cursor-pointer mx-2 mb-3 border-2 text-center text-lg"}
                         onClick={() => !selectedAnswer && handleClick(a)}
                     >
                         {a.text}

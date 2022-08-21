@@ -14,10 +14,10 @@ import Pejabat from './pages/Pejabat';
 import Pemeriksaan from './pages/Pemeriksaan'
 import BerlakuHukuman from './pages/BerlakuHukuman';
 import Kuis from './pages/Kuis';
-import FiturKuis from './pages/Fitur Kuis';
 import Artikel2MatriksPerbedaan from './pages/Artikel/Artikel2MatriksPerbedaan';
 import Artikel3TataCaraPemeriksaan from './pages/Artikel/Artikel3TataCaraPemeriksaan';
 import Templat from './pages/Templat';
+import Artikel1MasukKerja from './pages/Artikel/Artikel1MasukKerja';
 
 function App() {
   return (
@@ -36,10 +36,11 @@ function App() {
         <Route path="pemeriksaan" element={<Pemeriksaan />} />
         <Route path="berlaku" element={<BerlakuHukuman />} />
         <Route path="kuis" element={<Kuis />} />
-        <Route path="fiturkuis" element={<FiturKuis />} />
         <Route path="templat" element={<Templat />} />
+        <Route path="artikel1" element={<Artikel1MasukKerja />} />
         <Route path="artikel2" element={<Artikel2MatriksPerbedaan />} />
         <Route path="artikel3" element={<Artikel3TataCaraPemeriksaan />} />
+
       </Routes>
       <Footer />
     </div>

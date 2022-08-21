@@ -28,10 +28,7 @@ const KomponenArtikel = () => {
         }
     }
 
-
-
     return (
-
         <div className="w-5/6 lg:h-screen flex flex-col md:flex-row-reverse justify-center items-center lg:justify-evenly dark:bg-[#0f172a] m-10">
             <Flip right>
                 <div className="flex items-center justify-center md:basis-1/3 lg:basis-1/4 m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
