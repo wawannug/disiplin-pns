@@ -6,7 +6,7 @@ const TataCaraPemeriksaan = () => {
     const [pasal, setPasal] = useState(0)
 
     return (
-        <div className="mt-20 mb-10 md:5/6 lg:w-2/3 mx-auto font-Montserrat-Regular md:h-screen dark:text-white">
+        <div className="mt-20 mb-16 md:5/6 lg:w-2/3 mx-auto font-Montserrat-Regular h-screen dark:text-white">
             {/* Judul */}
             <h1 className="text-center text-2xl m-4 font-bold">TATA CARA PEMERIKSAAN, PENJATUHAN, DAN PENYAMPAIAN KEPUTUSAN HUKUMAN DISIPLIN</h1>
             {/* Konten */}

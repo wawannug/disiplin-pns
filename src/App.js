@@ -18,6 +18,8 @@ import Artikel2MatriksPerbedaan from './pages/Artikel/Artikel2MatriksPerbedaan';
 import Artikel3TataCaraPemeriksaan from './pages/Artikel/Artikel3TataCaraPemeriksaan';
 import Templat from './pages/Templat';
 import Artikel1MasukKerja from './pages/Artikel/Artikel1MasukKerja';
+import Artikel4PedomanPelaksanaan from './pages/Artikel/Artikel4PedomanPelaksanaan';
+import Survei from './pages/Survei';
 
 function App() {
   return (
@@ -40,6 +42,9 @@ function App() {
         <Route path="artikel1" element={<Artikel1MasukKerja />} />
         <Route path="artikel2" element={<Artikel2MatriksPerbedaan />} />
         <Route path="artikel3" element={<Artikel3TataCaraPemeriksaan />} />
+        <Route path="artikel4" element={<Artikel4PedomanPelaksanaan />} />
+        <Route path="survei" element={<Survei />} />
+
 
       </Routes>
       <Footer />

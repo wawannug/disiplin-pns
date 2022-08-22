@@ -16,7 +16,7 @@ function Hukuman() {
                     <button onClick={() => setSedang(!sedang)} className={`outline outline-1 p-1 m-2 ${sedang === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Sedang</button>
                     <button onClick={() => setBerat(!berat)} className={`outline outline-1 p-1 m-2 ${berat === true ? "bg-sky-500" : ""}`}>Hukuman Disiplin Berat</button>
                 </div>
-                <div className="text-center">Pilih kategori tingkat hukuman</div>
+                <div className="text-center">Pilih tingkat hukuman</div>
             </div>
 
             {/* Awal Hukuman Disiplin Ringan */}
@@ -72,7 +72,7 @@ function Hukuman() {
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
-                                                    isi.rincian.map((detil) => <div className="p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
+                                                    isi.rincian.map((detil) => <div className="text-justify p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
                                         <td className='text-justify border p-2'>{isi.dampak}</td>
@@ -99,7 +99,7 @@ function Hukuman() {
                                         <td className='border p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
-                                                <div>{isi.rincian && isi.rincian}<br /></div>
+                                                <div className="text-justify">{isi.rincian && isi.rincian}<br /></div>
                                             </details>
                                         </td>
                                         <td className='text-justify border p-2'>{isi.dampak}</td>

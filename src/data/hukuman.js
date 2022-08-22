@@ -25,7 +25,7 @@ export const hukuman = [
             },
             {
                 id: 'e',
-                wajib: 'menyimpan rahasia jabatan dan hanya dapatmengemukakan rahasia jabatan sesuai denganketentuan peraturan perundang-undangan',
+                wajib: 'menyimpan rahasia jabatan dan hanya dapat mengemukakan rahasia jabatan sesuai dengan ketentuan peraturan perundang-undangan',
                 dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
             {
@@ -45,8 +45,9 @@ export const hukuman = [
                 wajib: 'Masuk Kerja dan menaati ketentuan jam kerja',
                 dampak: 'berdampak pada Unit Kerja',
                 rincian: [
-                    'teguran lisan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 3 (tiga)hari kerja dalam 1 (satu) tahun',
-                    'teguran tertulis bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 4 (empat) sampai dengan 6 (enam) hari kerja dalam 1 (satu) tahun'
+                    'teguran lisan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 3 (tiga)hari kerja dalam 1 (satu) tahun;',
+                    'teguran tertulis bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 4 (empat) sampai dengan 6 (enam) hari kerja dalam 1 (satu) tahun; dan',
+                    'pernyataan tidak puas secara tertulis bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 7 (tujuh) sampai dengan 10 (sepuluh) hari kerja dalam 1 (satu) tahun.'
                 ],
             },
             {
@@ -57,7 +58,7 @@ export const hukuman = [
             {
                 id: 'd',
                 wajib: 'memberikan kesempatan kepada bawahan untuk mengembangkan kompetensi',
-                dampak: 'pabila pelanggaran berdampak negatif pada Unit Kerj',
+                dampak: 'pabila pelanggaran berdampak negatif pada Unit Kerja',
             },
         ],
         larangan: [
@@ -69,12 +70,12 @@ export const hukuman = [
             {
                 id: 'b',
                 larangan: 'melakukan kegiatan yang merugikan negara',
-                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerj',
+                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
             {
                 id: 'c',
                 larangan: 'bertindak sewenang-wenang terhadap bawahan',
-                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerj',
+                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
             {
                 id: 'd',
@@ -258,7 +259,7 @@ export const hukuman = [
             {
                 id: 'h',
                 wajib: 'bersedia ditempatkan di seluruh wilayah Negara Kesatuan Republik Indonesia',
-                dampak: 'apabila pelanggaran berdampa k negatif pada negara',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara',
             },
         ],
         kewajibanLain: [
@@ -270,7 +271,7 @@ export const hukuman = [
             {
                 id: 'b',
                 wajib: 'melaporkan dengan segera kepada atasannya apabila mengetahui ada hal yang dapat membahayakan keamanan negara atau merugikan keuangan negara',
-                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah;',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
             },
             {
                 id: 'c',
@@ -307,7 +308,7 @@ export const hukuman = [
             },
             {
                 id: 'c',
-                larangan: 'menjadi pegawai atau bekerja untuk negara laindan/ atau lembaga atau organisasi internasional tan pa izin atau tanpa ditugaskan oleh Pejabat Pembina Kepegawaian',
+                larangan: 'menjadi pegawai atau bekerja untuk negara lain dan/atau lembaga atau organisasi internasional tan pa izin atau tanpa ditugaskan oleh Pejabat Pembina Kepegawaian',
                 dampak: '',
             },
             {
@@ -322,7 +323,7 @@ export const hukuman = [
             },
             {
                 id: 'f',
-                larangan: 'melakukan pungutan di- luar ketentuan ',
+                larangan: 'melakukan pungutan di luar ketentuan ',
                 dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
             },
             {

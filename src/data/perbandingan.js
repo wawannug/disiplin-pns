@@ -8,7 +8,7 @@ export const perbandingan = [
     {
         id: 1,
         perbedaan: "Ketentuan larangan PNS berupa melakukan pungutan di luar ketentuan",
-        peraturan53: "Belum ada pengaturan terkait ketentuan larangan berupa melakukan pungutan di luar ketentuan.",
+        peraturan53: "Belum ada ketentuan yang mengatur larangan berupa melakukan pungutan di luar ketentuan.",
         peraturan94: "Terdapat penambahan ketentuan larangan berupa melakukan pungutan di luar ketentuan. Yang dimaksud dengan “pungutan di luar ketentuan” adalah pengenaan biaya yang tidak seharusnya dikenakan atau penyalahgunaan wewenang untuk mendapatkan uang, barang, atau bentuk lain untuk kepentingan pribadi atau pihak lain baik dilakukan secara sendiri-sendiri atau bersama-sama.",
     },
     {
@@ -20,19 +20,84 @@ export const perbandingan = [
     {
         id: 3,
         perbedaan: "Jenis hukuman disiplin sedang",
-        peraturan53: "Jenis hukuman disiplin sedang meliputi : a. penundaan kenaikan gaji berkala selama 1 (satu) tahun; b.	penundaan kenaikan pangkat selama 1 (satu) tahun; dan c.	penurunan pangkat setingkat lebih rendah selama 1 (satu) tahun.",
-        peraturan94: "Jenis hukuman disiplin sedang meliputi : a.	pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 6 (enam) bulan; b.	pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 9 (sembilan) bulan; atau c.	pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 12 (dua belas) bulan.",
+        peraturan53: "Jenis hukuman disiplin sedang meliputi :",
+        uraian53: [
+            {
+                id: "a",
+                uraian: "penundaan kenaikan gaji berkala selama 1 (satu) tahun;"
+            },
+            {
+                id: "b",
+                uraian: "penundaan kenaikan pangkat selama 1 (satu) tahun;dan"
+            },
+            {
+                id: "c",
+                uraian: "penurunan pangkat setingkat lebih rendah selama 1 (satu) tahun."
+            }
+
+        ],
+        peraturan94: "Jenis hukuman disiplin sedang meliputi :	",
+        uraian94: [
+            {
+                id: "a",
+                uraian: "pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 6 (enam) bulan;",
+            },
+            {
+                id: "b",
+                uraian: "pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 9 (sembilan) bulan;dan "
+            },
+            {
+                id: "c",
+                uraian: "pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 12 (dua belas) bulan.",
+            }
+        ]
     },
     {
         id: 4,
         perbedaan: "Jenis hukuman disiplin berat",
-        peraturan53: "Jenis hukuman disiplin berat meliputi a.	penurunan pangkat setingkat lebih rendah selama 3 (tiga) tahun; b.	pemindahan dalam rangka penurunan jabatan setingkat lebih rendah; c.	pembebasan dari jabatan; d.	pemberhentian dengan hormat tidak atau atas permintaan sendiri sebagai PNS; dan e.	pemberhentian tidak dengan hormat sebagai PNS.",
-        peraturan94: "Jenis hukuman disiplin berat meliputi a.	Penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan; b.	Pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan; danc.	Pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS.",
+        peraturan53: "Jenis hukuman disiplin berat meliputi : ",
+        uraian53: [
+            {
+                id: "a",
+                uraian: "penurunan pangkat setingkat lebih rendah selama 3 (tiga) tahun;",
+            },
+            {
+                id: "b",
+                uraian: "pemindahan dalam rangka penurunan jabatan setingkat lebih rendah; "
+            },
+            {
+                id: "c",
+                uraian: "pembebasan dari jabatan;",
+            },
+            {
+                id: "d",
+                uraian: "pemberhentian dengan hormat tidak atau atas permintaan sendiri sebagai PNS; dan"
+            },
+            {
+                id: "e",
+                uraian: "pemberhentian tidak dengan hormat sebagai PNS."
+            }
+        ],
+        peraturan94: "Jenis hukuman disiplin berat meliputi : ",
+        uraian94: [
+            {
+                id: "a",
+                uraian: "Penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan;",
+            },
+            {
+                id: "b",
+                uraian: "Pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan; dan "
+            },
+            {
+                id: "c",
+                uraian: "Pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS.",
+            }
+        ]
     },
     {
         id: 5,
         perbedaan: "Pelanggaran terhadap kewajiban Masuk Kerja dan menaati ketentuan jam kerja",
-        peraturan53: "",
+        peraturan53: "-",
         peraturan94: "Terdapat perubahan hukuman terhadap pelanggar kewjajiban Masuk Kerja dan menaati ketentuan jam kerja",
     },
     {
@@ -43,32 +108,26 @@ export const perbandingan = [
     },
     {
         id: 7,
-        perbedaan: "",
-        peraturan53: "",
-        peraturan94: "",
-    },
-    {
-        id: 8,
         perbedaan: "Hukuman lebih berat kepada atasan yang tidak melakukan pemanggilan dan pemeriksaan",
         peraturan53: "Atasan langsung yang mengetahui ada pelanggaran disiplin yang dilakukan bawahannya, namun tidak melakukan tindak lanjut apapun juga dijatuhi hukuman disiplin yang jenisnya sama dengan hukuman disiplin yang seharusnya dijatuhkan kepada PNS yang melakukan pelanggaran",
         peraturan94: "Atasan langsung yang tidak melakukan pemanggilan dan pemeriksaan terhadap PNS yang diduga melakukan Pelanggaran Disiplin, dan/ atau melaporkan hasil pemeriksaan kepada Pejabat yang Berwenang Menghukum dijatuhi Hukuman Disiplin.Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin yang lebih berat kepada atasan langsung dilakukan setelah melalui proses pemeriksaan",
     },
     {
-        id: 9,
+        id: 8,
         perbedaan: "Hukuman lebih berat kepada pejabat yang berwenang menghukum yang tidak menjatuhkan hukuman disiplin ",
         peraturan53: "Apabila pejabat yang berwenang menghukum tidak menjatuhkan hukuman disiplin kepada PNS yang melakukan pelanggaran disiplin, pejabat tersebut dijatuhi hukuman disiplin oleh atasannya.Hukuman disiplin sama dengan jenis hukuman disiplin yang seharusnya dijatuhkan kepada PNS yang melakukan pelanggaran disiplin",
         peraturan94: "Dalam hal Pejabat yang Berwenang Menghukurn tidak menjatuhkan Hukuman Disiplin yang sesuai Pelanggaran Disiplin yang dilakukan oleh PNS, maka Pejabat yang Berwenang Menghukum dijatuhi Hukuman Disiplin yang lebih berat",
     },
     {
-        id: 10,
+        id: 9,
         perbedaan: "Ketentuan pelaksanaan",
         peraturan53: "Ketentuan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Kepala Badan Kepegawaian Negara",
         peraturan94: "Ketentuan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut dengan Peraturan Badan Kepegawaian Negara.",
     },
     {
-        id: 11,
+        id: 10,
         perbedaan: "Izin perkawinan dan perceraian",
-        peraturan53: "",
+        peraturan53: "Tidak diatur dalam Peraturan Pemerintah Nomor 53 Tahun 2010",
         peraturan94: "PNS yang melanggar ketentuan Peraturan Pemerintah Nomor 10 Tahun 1983 tentang Izin Perkawinan dan Perceraian bagi Pegawai Negeri Sipil sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 45 Tahun 1990 tentang Perubahan atas Peraturan Pemerintah Nomor 10 Tahun 1983 ten tang Izin Perkawinan dan Perceraian bagi Pegawai Negeri Sipil dijatuhi salah satu jenis Hukuman Disiplin berat berdasarkan Peraturan Pemerintah",
     },
 ]   

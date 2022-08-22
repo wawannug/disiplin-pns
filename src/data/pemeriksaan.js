@@ -30,15 +30,15 @@ export const pemeriksaan = [
                 keterangan: "",
             },
             {
-                uraian: "Pemeriksaandilakukan secara tertutup melalui tatap muka langsung maupun secara virtual dan hasilnya dituangkan dalam bentuk berita acara pemeriksaan.",
+                uraian: "Pemeriksaan dilakukan secara tertutup melalui tatap muka langsung maupun secara virtual dan hasilnya dituangkan dalam bentuk berita acara pemeriksaan.",
                 keterangan: "",
             },
             {
-                uraian: "Dalam hal hasil pemeriksaanmenyatakan kewenangan menjatuhkan Hukuman Disiplin merupakan kewenangan atasan langsung, maka atasan langsung tersebut wajib menjatuhkan Hukuman Disiplin.",
+                uraian: "Dalam hal hasil pemeriksaan menyatakan kewenangan menjatuhkan Hukuman Disiplin merupakan kewenangan atasan langsung, maka atasan langsung tersebut wajib menjatuhkan Hukuman Disiplin.",
                 keterangan: "",
             },
             {
-                uraian: "Dalarn hal sesuai hasil pemeriksaan menyatakan kewenangan penjatuhan Hukuman Disiplin roerupakan kewenangan pejabat yang lebih tinggi, maka at.asan langsung wajib melaporkan berita acara pemeriksaan dan hasil pemeriksaan secara hierarki.",
+                uraian: "Dalarn hal sesuai hasil pemeriksaan menyatakan kewenangan penjatuhan Hukuman Disiplin merupakan kewenangan pejabat yang lebih tinggi, maka atasan langsung wajib melaporkan berita acara pemeriksaan dan hasil pemeriksaan secara hierarki.",
                 keterangan: "",
             },
         ],
@@ -48,7 +48,7 @@ export const pemeriksaan = [
         bagian: "Atasan tidak melakukan pemanggilan",
         konten: [
             {
-                uraian: "Atasan langsung yang tidak melakukan pemanggilan dan pemeriksaan terhadap PNS yang diduga melakukan Pelanggaran Disiplin, dan/ atau melaporkan hasil pemeriksaan kepada Pejabat yang Berwenang Menghukum dijatuhi Hukuman Disiplin.",
+                uraian: "Atasan langsung yang tidak melakukan pemanggilan dan pemeriksaan terhadap PNS yang diduga melakukan Pelanggaran Disiplin, dan/atau melaporkan hasil pemeriksaan kepada Pejabat yang Berwenang Menghukum dijatuhi Hukuman Disiplin.",
                 keterangan: ""
             },
             {
@@ -74,11 +74,11 @@ export const pemeriksaan = [
                 keterangan: "",
             },
             {
-                uraian: "Dalam hal tertentu tim pemeriksa sebagaimana dimaksud pada ayat (3) dapat melibatkan pejabat lain yang ditunjuk.",
+                uraian: "Dalam hal tertentu tim pemeriksa dapat melibatkan pejabat lain yang ditunjuk.",
                 keterangan: "",
             },
             {
-                uraian: "Tim pemeriksa sebagaimana dimaksud pada ayat (3) dibentuk oleh Pejabat Pembina Kepegawaian atau pejabat lain yang ditunjuk.",
+                uraian: "Tim pemeriksa dibentuk oleh Pejabat Pembina Kepegawaian atau pejabat lain yang ditunjuk.",
                 keterangan: "",
             },
             {
@@ -114,11 +114,11 @@ export const pemeriksaan = [
                 keterangan: ""
             },
             {
-                uraian: "PNS yang dibebaskan sementara dari tugas jabatannya sebagaimana dimaksud pada ayat (1) tetap diberikan hak-hak kepegawaiannya sesuai dengan ketentuan peraturan perundang-undangan.",
+                uraian: "PNS yang dibebaskan sementara dari tugas jabatannya tetap diberikan hak-hak kepegawaiannya sesuai dengan ketentuan peraturan perundang-undangan.",
                 keterangan: "",
             },
             {
-                uraian: "Dalam hal atasan langsung sebagaimana dimaksud pada ayat (1) tidak ada, maka pembebasan sementara dari tugas jabatannya dilakukan oleh pejabat yang lebih tinggi.",
+                uraian: "Dalam hal atasan langsung tidak ada, maka pembebasan sementara dari tugas jabatannya dilakukan oleh pejabat yang lebih tinggi.",
                 keterangan: "",
             }
         ],
@@ -128,7 +128,7 @@ export const pemeriksaan = [
         bagian: "Berita Acara Pemeriksaan",
         konten: [
             {
-                uraian: "Berita acara pemeriksaan sebagaimana dimaksud dalam Pasal 27 ayat (2) harus ditandatangani oleh pejabat yang memeriksa dan PNS yang diperiksa secara langsung maupun secara virtual.",
+                uraian: "Berita acara pemeriksaan harus ditandatangani oleh pejabat yang memeriksa dan PNS yang diperiksa secara langsung maupun secara virtual.",
                 keterangan: "",
             },
             {
@@ -146,11 +146,11 @@ export const pemeriksaan = [
         bagian: "Hukuman Disiplin oleh Pejabat yang Berwenang Menghukum",
         konten: [
             {
-                uraian: "Berdasarkan basil pemeriksaan sebagaimana dimaksud dalam Pasal 27 dan Pasal 28 Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
+                uraian: "Berdasarkan basil pemeriksaan Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
                 keterangan: "",
             },
             {
-                uraian: "Berdasarkan basil pemeriksaan sebagaimana dimaksud dalam Pasal 27 dan Pasal 28 Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
+                uraian: "Berdasarkan basil pemeriksaan Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
                 keterangan: "",
             },
         ],
@@ -182,7 +182,7 @@ export const pemeriksaan = [
                 keterangan: "",
             },
             {
-                uraian: "Dalam hal PNS yang akan dijatuhi Hukuman Disiplin merupakan PNSyang mendapatkan penugasan khusus dan jenis Hukuman Disiplin yang akan dijatuhkan bukan merupakan kewenangan pimpinan instansi atau Kepala Perwakilan tempat penugasan khusus, maka pimpinan instansi atau Kepala Perwakilan mengusulkan penjatuhan Hukuman Disiplin kepada pimpinan instansi induk disertai berita acara pemeriksaan.",
+                uraian: "Dalam hal PNS yang akan dijatuhi Hukuman Disiplin merupakan PNS yang mendapatkan penugasan khusus dan jenis Hukuman Disiplin yang akan dijatuhkan bukan merupakan kewenangan pimpinan instansi atau Kepala Perwakilan tempat penugasan khusus, maka pimpinan instansi atau Kepala Perwakilan mengusulkan penjatuhan Hukuman Disiplin kepada pimpinan instansi induk disertai berita acara pemeriksaan.",
                 keterangan: "",
             },
         ]
@@ -193,7 +193,7 @@ export const pemeriksaan = [
         konten: [
             {
 
-                uraian: "Dalam hal berdasarkan hasil pemeriksaan sebagaimana dimaksud dalam Pasal 27 ayat (3) terdapat indikasi penyalahgunaan wewenang yang menimbulkan kerugian keuangan negara, maka atasan langsung atau tim pemeriksa wajib berkoordinasi dengan aparat pengawas intern pemerintah.",
+                uraian: "Dalam hal berdasarkan hasil pemeriksaan terdapat indikasi penyalahgunaan wewenang yang menimbulkan kerugian keuangan negara, maka atasan langsung atau tim pemeriksa wajib berkoordinasi dengan aparat pengawas intern pemerintah.",
                 keterangan: "",
             },
             {

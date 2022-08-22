@@ -14,7 +14,7 @@ export const pejabat = [
                 pihak1: "Jabatan Pimpinan Tinggi Madya;",
                 pihak2: "Jabatan Fungsional Jenjang Ahli Utama; dan",
                 pihak3: "Jabatan lain yang pengangkatan dan pemberhentiannya menjadi wewenang Presiden",
-                keterangan: "untuk jenis Hukuman Disiplin berat sebagaimana dimaksud dalam Pasal 8 ayat {4) huruf c.",
+                keterangan: "untuk jenis Hukuman Disiplin berat sebagaimana dimaksud dalam Pasal 8 ayat (4) huruf c.",
             },
             {
                 penjelasan: "Penjatuhan Hukuman Disiplin sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan berdasarkan usul:",
@@ -34,15 +34,15 @@ export const pejabat = [
                 penjelasan: "Pejabat Pembina Kepegawaian Instansi Pusat clan Pejabat Pembina Kepegawaian Instansi Daerah Provinsi menetapkan penjatuhan Hukuman Disiplin bagi:",
                 pihak1: "Pejabat Pimpinan Tinggi Pratama di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (3) dan ayat (4);",
                 pihak2: "Pejabat Fungsional jenjang Ahli Utama untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2), ayat (3), dan ayat (4) huruf a dan huruf b;",
-                pihak3: "Pejabat Administrator ke bawah di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (4);dan",
+                pihak3: "Pejabat Administrator ke bawah di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (4); dan",
                 pihak4: "Pejabat Fungsional selain Pejabat Fungsional jenjang Ahli Utama di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (4).",
             },
             {
-                penjelasan: "Pejabat Pembina Kepegawaian Instansi Daerah Kabupaten/ Kota menetapkan penjatuhan Hukuman Disiplin bagi:",
+                penjelasan: "Pejabat Pembina Kepegawaian Instansi Daerah Kabupaten/Kota menetapkan penjatuhan Hukuman Disiplin bagi:",
                 pihak1: "Pejabat Pimpinan Tinggi Pratama di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2), ayat (3), dan ayat (4);",
                 pihak2: "Pejabat Fungsional jenjang Ahli Utama untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2), ayat (3), dan ayat (4) huruf a dan huruf b;",
                 pihak3: "Pejabat Administrator ke bawah di lingkungannya untukjenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (3) dan ayat (4); dan",
-                pihak4: "Pejabat Administrator ke bawah di lingkungannya untukjenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (3) dan ayat (4); dan",
+                pihak4: "Pejabat Fungsional selain Pejabat Fungsional jenjang Ahli Utama di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (4)",
             }
         ],
     },
@@ -85,13 +85,13 @@ export const pejabat = [
         jabatan: "Pejabat Administrator atau pejabat lain yang setara",
         info: [
             {
-                penjelasan: "Dalam hal tidak terdapatjabatan administrator pada Unit Kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Madya tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS sebagaimana dimaksud pada ayat (1) huruf a",
+                penjelasan: "Dalam hal tidak terdapat jabatan administrator pada Unit Kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Madya tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS sebagaimana dimaksud pada ayat (1) huruf a",
                 pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2)",
                 pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (3); dan",
-                pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2)dan ayat (3)",
+                pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2) dan ayat (3)",
             },
             {
-                penjelasan: "Dalam hal tidak terdapatjabatan administrator pada Unit Kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Madya tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS sebagaimana dimaksud pada ayat (1) huruf a.",
+                penjelasan: "Dalam hal tidak terdapat jabatan administrator pada Unit Kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Madya tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS sebagaimana dimaksud pada ayat (1) huruf a.",
             },
             {
                 penjelasan: "Pejabat Fungsional jenjang Ahli Madya tertentu sebagaimana dimaksud pada ayat (2) ditetapkan dengan keputusan Pejabat Pembina Kepegawaian.",
@@ -105,7 +105,7 @@ export const pejabat = [
             {
                 penjelasan: "Pejabat Pengawas atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi:",
                 pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untukjenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2);",
-                pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untukjenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2) dan ayat (3);dan",
+                pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untukjenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2) dan ayat (3); dan",
                 pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin sebagaimana dimaksud dalam Pasal 8 ayat (2)."
             },
             {
