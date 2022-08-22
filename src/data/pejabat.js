@@ -48,7 +48,7 @@ export const pejabat = [
     },
     {
         indeks: 2,
-        jabatan: "Kepala Perwajilan Republik Indonesia",
+        jabatan: "Kepala Perwakilan Republik Indonesia",
         info: [
             {
                 penjelasan: "Kepala Perwakilan Republik Indonesia berwenang menjatuhkan Hukuman Disiplin bagi:",
