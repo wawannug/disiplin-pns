@@ -1,61 +1,67 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import { Slide, Zoom } from "react-awesome-reveal";
 
 const PokokBahasan = () => {
     const navigate = useNavigate()
     return (
         <div className=" mt-10 w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-evenly dark:text-white">
-            <div className="text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
-                POKOK BAHASAN
-            </div>
-
+            <Slide direction="down">
+                <div className="text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
+                    POKOK BAHASAN
+                </div>
+            </Slide>
             <div
                 className=" justify-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 m-4 lg:m-6 gap-4 lg:gap-6">
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/kewajiban') }}>
-                    <div className="flex justify-center">
-                        <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 77.695 72">
-                            <g transform="translate(-14,-14)">
-                                <polygon points="40.865 61.688 48.765 70.682 49.045 71 91.695 33.529 83.512 24.217 50.039 53.627 38.365 40.344 29.188 48.405" />
-                            </g>
-                            <g transform="translate(-14,-14)">
-                                <path d="m77 77h-54v-54h54v1.541l7.47-6.547c-1.614-2.408-4.354-3.994-7.47-3.994h-54c-4.97 0-9 4.03-9 9v54c0 4.969 4.03 9 9 9h54c4.971 0 9-4.031 9-9v-33.143l-9 7.907v25.236z" />
-                            </g>
-                        </svg>
-                        {/* <img src={Kewajiban} className="h-32 my-4" /> */}
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/kewajiban') }}>
+                        <div className="flex justify-center">
+                            <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 77.695 72">
+                                <g transform="translate(-14,-14)">
+                                    <polygon points="40.865 61.688 48.765 70.682 49.045 71 91.695 33.529 83.512 24.217 50.039 53.627 38.365 40.344 29.188 48.405" />
+                                </g>
+                                <g transform="translate(-14,-14)">
+                                    <path d="m77 77h-54v-54h54v1.541l7.47-6.547c-1.614-2.408-4.354-3.994-7.47-3.994h-54c-4.97 0-9 4.03-9 9v54c0 4.969 4.03 9 9 9h54c4.971 0 9-4.031 9-9v-33.143l-9 7.907v25.236z" />
+                                </g>
+                            </svg>
+                            {/* <img src={Kewajiban} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                            Kewajiban
+                        </div>
                     </div>
-                    <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
-                        Kewajiban
+                </Zoom>
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/larangan') }}>
+                        <div className="flex justify-center ">
+                            <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                                <g>
+                                    <path d="M412.719,54.022C369.356,20.299,315.059,0,256,0C114.844,0,0,114.844,0,256c0,59.058,20.299,113.353,54.021,156.715   L412.719,54.022z" />
+                                    <path d="M457.97,99.271L99.268,457.967C142.633,491.696,196.936,512,256,512c141.156,0,256-114.844,256-256   C512,196.936,491.698,142.636,457.97,99.271z" />
+                                </g>
+                            </svg>
+                            {/* <img src={Larangan} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2  flex items-center justify-center text-center">
+                            Larangan
+                        </div>
                     </div>
-                </div>
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/larangan') }}>
-                    <div className="flex justify-center ">
-                        <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
-                            <g>
-                                <path d="M412.719,54.022C369.356,20.299,315.059,0,256,0C114.844,0,0,114.844,0,256c0,59.058,20.299,113.353,54.021,156.715   L412.719,54.022z" />
-                                <path d="M457.97,99.271L99.268,457.967C142.633,491.696,196.936,512,256,512c141.156,0,256-114.844,256-256   C512,196.936,491.698,142.636,457.97,99.271z" />
-                            </g>
-                        </svg>
-                        {/* <img src={Larangan} className="h-32 my-4" /> */}
-                    </div>
-                    <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2  flex items-center justify-center text-center">
-                        Larangan
-                    </div>
-                </div>
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/hukuman') }}>
-                    <div className="flex justify-center">
-                        <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 1098.000000 1280.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                            >
-                                <path d="M2655 12783 c-132 -48 -211 -161 -209 -303 1 -93 19 -134 113 -251 l69 -85 -137 -111 c-141 -114 -374 -304 -1275 -1038 -290 -236 -531 -431 -536
+                </Zoom>
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/hukuman') }}>
+                        <div className="flex justify-center">
+                            <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 1098.000000 1280.000000"
+                                preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                                >
+                                    <path d="M2655 12783 c-132 -48 -211 -161 -209 -303 1 -93 19 -134 113 -251 l69 -85 -137 -111 c-141 -114 -374 -304 -1275 -1038 -290 -236 -531 -431 -536
 -433 -4 -2 -40 36 -80 83 -79 94 -124 129 -196 151 -188 57 -383 -76 -401 -274 -8 -90 15 -156 89 -249 48 -60 1462 -1798 1947 -2392 47 -57 104 -116
 128 -132 202 -127 466 7 481 246 6 96 -19 157 -109 269 -69 85 -71 89 -53 106 38 36 676 552 687 555 9 3 1756 -2130 1859 -2268 16 -22 10 -31 -486 -640
 -276 -339 -505 -620 -509 -623 -3 -4 -25 10 -48 30 -23 19 -46 33 -50 30 -5 -2 -262 -316 -572 -697 -310 -381 -1078 -1324 -1708 -2097 -629 -773 -1241
@@ -71,55 +77,62 @@ const PokokBahasan = () => {
 -448 -550 -887 -1089 -439 -539 -801 -980 -805 -980 -4 0 -406 490 -894 1089 -849 1042 -886 1090 -869 1106 48 46 678 553 688 554 6 1 45 -40 87 -90 101
 -121 153 -149 278 -149 101 0 155 22 225 91 57 57 85 131 85 224 0 58 -5 77 -32 129 -18 34 -166 225 -329 424 -162 199 -614 754 -1004 1232 -389 479 -724
 887 -744 908 -80 84 -220 118 -326 80z"/>
-                            </g>
-                        </svg>
-                        {/* <img src={Hukuman} className="h-32 my-4" /> */}
+                                </g>
+                            </svg>
+                            {/* <img src={Hukuman} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                            Tingkat dan Jenis Hukuman
+                        </div>
                     </div>
-                    <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
-                        Tingkat dan Jenis Hukuman
+                </Zoom>
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/pejabat') }}>
+                        <div className="flex justify-center">
+                            <svg
+                                className="w-2/3 h-32 my-4 fill-current dark:text-white"
+                                id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 122.88 116.02">
+                                <defs><style>.cls-1</style></defs><title>person</title>
+                                <path class="cls-1" d="M45.41,69.63c.35-2.91-8.3-14.06-9.88-19.4-3.39-5.38-4.59-13.94-.9-19.63,1.47-2.26.84-4.22.84-7.35,0-31,54.27-31,54.27,0,0,3.92-.89,4.84,1.22,7.93,3.55,5.15,1.73,14.29-1.27,19.07-1.93,5.61-11,16.22-10.37,19.4.57,15.89-34,15.38-33.91,0v0Zm19.78,27.5H67.1A3.13,3.13,0,0,0,70.22,94V89a3.12,3.12,0,0,0-3.12-3.12H55.79A3.13,3.13,0,0,0,52.67,89V94a3.14,3.14,0,0,0,3.12,3.12h1.94L54,116H68.76L65.19,97.13ZM0,116C1.47,97-2.26,97.79,13.65,91.84A122.7,122.7,0,0,0,36,80.54L49.6,116Zm87.54-37.1a91.08,91.08,0,0,0,20.61,10.29C123,94.15,123,94.84,122.86,116H73.45l14.09-37.1Z" />
+                            </svg>
+                            {/* <img src={Pejabat} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                            <p>Pejabat yang Berwenang Menghukum</p>
+                        </div>
                     </div>
-                </div>
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/pejabat') }}>
-                    <div className="flex justify-center">
-                        <svg
-                            className="w-2/3 h-32 my-4 fill-current dark:text-white"
-                            id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 122.88 116.02">
-                            <defs><style>.cls-1</style></defs><title>person</title>
-                            <path class="cls-1" d="M45.41,69.63c.35-2.91-8.3-14.06-9.88-19.4-3.39-5.38-4.59-13.94-.9-19.63,1.47-2.26.84-4.22.84-7.35,0-31,54.27-31,54.27,0,0,3.92-.89,4.84,1.22,7.93,3.55,5.15,1.73,14.29-1.27,19.07-1.93,5.61-11,16.22-10.37,19.4.57,15.89-34,15.38-33.91,0v0Zm19.78,27.5H67.1A3.13,3.13,0,0,0,70.22,94V89a3.12,3.12,0,0,0-3.12-3.12H55.79A3.13,3.13,0,0,0,52.67,89V94a3.14,3.14,0,0,0,3.12,3.12h1.94L54,116H68.76L65.19,97.13ZM0,116C1.47,97-2.26,97.79,13.65,91.84A122.7,122.7,0,0,0,36,80.54L49.6,116Zm87.54-37.1a91.08,91.08,0,0,0,20.61,10.29C123,94.15,123,94.84,122.86,116H73.45l14.09-37.1Z" />
-                        </svg>
-                        {/* <img src={Pejabat} className="h-32 my-4" /> */}
+                </Zoom>
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/pemeriksaan') }}>
+                        <div className="flex justify-center">
+                            <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                enable-background="new 0 0 24 24"><path d="M8.5,6H6.7C8.2,4.7,10,4,12,4c0.3,0,0.6,0,0.9,0.1c0,0,0,0,0,0c0.5,0.1,1-0.3,1.1-0.9c0.1-0.5-0.3-1-0.9-1.1C12.7,2,12.4,2,12,2C9.6,2,7.3,2.9,5.5,4.4V3c0-0.6-0.4-1-1-1s-1,0.4-1,1v4c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1S9.1,6,8.5,6z M7,14.5c-0.6,0-1,0.4-1,1v1.8C4.7,15.8,4,14,4,12c0-0.3,0-0.6,0.1-0.9c0,0,0,0,0,0c0.1-0.5-0.3-1-0.9-1.1c-0.5-0.1-1,0.3-1.1,0.9C2,11.3,2,11.6,2,12c0,2.4,0.9,4.7,2.4,6.5H3c-0.6,0-1,0.4-1,1s0.4,1,1,1h4c0.3,0,0.6-0.2,0.8-0.4c0,0,0,0,0,0c0,0,0,0,0,0c0-0.1,0.1-0.2,0.1-0.3c0-0.1,0-0.1,0-0.2c0,0,0-0.1,0-0.1v-4C8,14.9,7.6,14.5,7,14.5z M21,5.5c0.6,0,1-0.4,1-1s-0.4-1-1-1h-4c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-0.1,0-0.2,0.1-0.3,0.1c0,0,0,0,0,0c-0.1,0.1-0.2,0.1-0.2,0.2c0,0,0,0,0,0c0,0,0,0,0,0c0,0.1-0.1,0.2-0.1,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1v4c0,0.6,0.4,1,1,1s1-0.4,1-1V6.7c1.3,1.4,2,3.3,2,5.3c0,0.3,0,0.6-0.1,0.9c-0.1,0.5,0.3,1,0.9,1.1c0,0,0.1,0,0.1,0c0.5,0,0.9-0.4,1-0.9c0-0.4,0.1-0.7,0.1-1.1c0-2.4-0.9-4.7-2.4-6.5H21z M20.3,16.5c-0.1-0.1-0.2-0.2-0.3-0.3c0,0,0,0,0,0c0,0,0,0,0,0c-0.1-0.1-0.2-0.1-0.3-0.1c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0h-4c-0.6,0-1,0.4-1,1s0.4,1,1,1h1.8c-1.4,1.3-3.3,2-5.3,2c-0.3,0-0.6,0-0.9-0.1c0,0,0,0,0,0c-0.5-0.1-1,0.3-1.1,0.9s0.3,1,0.9,1.1c0.4,0,0.7,0.1,1.1,0.1c2.4,0,4.7-0.9,6.5-2.4V21c0,0.6,0.4,1,1,1s1-0.4,1-1v-4C20.5,16.8,20.4,16.6,20.3,16.5C20.3,16.5,20.3,16.5,20.3,16.5z" />
+                            </svg>
+                            {/* <img src={TataCara} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
+                            <p>Tata Cara Pemeriksaan</p>
+                        </div>
                     </div>
-                    <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
-                        <p>Pejabat yang Berwenang Menghukum</p>
+                </Zoom>
+                <Zoom>
+                    <div
+                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        onClick={() => { navigate('/berlaku') }}>
+                        <div className="flex justify-center">
+                            <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M640 170.666667H256v682.666666h512V298.666667h-128V170.666667zM256 85.333333h426.666667l170.666666 170.666667v597.333333a85.333333 85.333333 0 0 1-85.333333 85.333334H256a85.333333 85.333333 0 0 1-85.333333-85.333334V170.666667a85.333333 85.333333 0 0 1 85.333333-85.333334z m85.333333 384h341.333334v85.333334H341.333333v-85.333334z m0 170.666667h341.333334v85.333333H341.333333v-85.333333z" /></svg>
+                            {/* <img src={Dokumentasi} className="h-32 my-4" /> */}
+                        </div>
+                        <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
+                            <p>Berlakunya Hukuman Disiplin</p>
+                        </div>
                     </div>
-                </div>
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/pemeriksaan') }}>
-                    <div className="flex justify-center">
-                        <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                            enable-background="new 0 0 24 24"><path d="M8.5,6H6.7C8.2,4.7,10,4,12,4c0.3,0,0.6,0,0.9,0.1c0,0,0,0,0,0c0.5,0.1,1-0.3,1.1-0.9c0.1-0.5-0.3-1-0.9-1.1C12.7,2,12.4,2,12,2C9.6,2,7.3,2.9,5.5,4.4V3c0-0.6-0.4-1-1-1s-1,0.4-1,1v4c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1S9.1,6,8.5,6z M7,14.5c-0.6,0-1,0.4-1,1v1.8C4.7,15.8,4,14,4,12c0-0.3,0-0.6,0.1-0.9c0,0,0,0,0,0c0.1-0.5-0.3-1-0.9-1.1c-0.5-0.1-1,0.3-1.1,0.9C2,11.3,2,11.6,2,12c0,2.4,0.9,4.7,2.4,6.5H3c-0.6,0-1,0.4-1,1s0.4,1,1,1h4c0.3,0,0.6-0.2,0.8-0.4c0,0,0,0,0,0c0,0,0,0,0,0c0-0.1,0.1-0.2,0.1-0.3c0-0.1,0-0.1,0-0.2c0,0,0-0.1,0-0.1v-4C8,14.9,7.6,14.5,7,14.5z M21,5.5c0.6,0,1-0.4,1-1s-0.4-1-1-1h-4c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-0.1,0-0.2,0.1-0.3,0.1c0,0,0,0,0,0c-0.1,0.1-0.2,0.1-0.2,0.2c0,0,0,0,0,0c0,0,0,0,0,0c0,0.1-0.1,0.2-0.1,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1v4c0,0.6,0.4,1,1,1s1-0.4,1-1V6.7c1.3,1.4,2,3.3,2,5.3c0,0.3,0,0.6-0.1,0.9c-0.1,0.5,0.3,1,0.9,1.1c0,0,0.1,0,0.1,0c0.5,0,0.9-0.4,1-0.9c0-0.4,0.1-0.7,0.1-1.1c0-2.4-0.9-4.7-2.4-6.5H21z M20.3,16.5c-0.1-0.1-0.2-0.2-0.3-0.3c0,0,0,0,0,0c0,0,0,0,0,0c-0.1-0.1-0.2-0.1-0.3-0.1c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0h-4c-0.6,0-1,0.4-1,1s0.4,1,1,1h1.8c-1.4,1.3-3.3,2-5.3,2c-0.3,0-0.6,0-0.9-0.1c0,0,0,0,0,0c-0.5-0.1-1,0.3-1.1,0.9s0.3,1,0.9,1.1c0.4,0,0.7,0.1,1.1,0.1c2.4,0,4.7-0.9,6.5-2.4V21c0,0.6,0.4,1,1,1s1-0.4,1-1v-4C20.5,16.8,20.4,16.6,20.3,16.5C20.3,16.5,20.3,16.5,20.3,16.5z" />
-                        </svg>
-                        {/* <img src={TataCara} className="h-32 my-4" /> */}
-                    </div>
-                    <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
-                        <p>Tata Cara Pemeriksaan</p>
-                    </div>
-                </div>
-                <div
-                    className="bg-[#E0E04F] dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
-                    onClick={() => { navigate('/berlaku') }}>
-                    <div className="flex justify-center">
-                        <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M640 170.666667H256v682.666666h512V298.666667h-128V170.666667zM256 85.333333h426.666667l170.666666 170.666667v597.333333a85.333333 85.333333 0 0 1-85.333333 85.333334H256a85.333333 85.333333 0 0 1-85.333333-85.333334V170.666667a85.333333 85.333333 0 0 1 85.333333-85.333334z m85.333333 384h341.333334v85.333334H341.333333v-85.333334z m0 170.666667h341.333334v85.333333H341.333333v-85.333333z" /></svg>
-                        {/* <img src={Dokumentasi} className="h-32 my-4" /> */}
-                    </div>
-                    <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
-                        <p>Berlakunya Hukuman Disiplin</p>
-                    </div>
-                </div>
+                </Zoom>
             </div >
         </div >
 
