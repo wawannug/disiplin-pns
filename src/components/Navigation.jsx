@@ -10,7 +10,7 @@ const Navigation = () => {
     return (
         <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10 font-bold shadow-md shadow-[#718d38] dark:shadow-none" >
             {/* Bungkus/Wrap logo dan link */}
-            <div className="justify-between md:flex">
+            <div className="justify-between lg:flex">
                 {/* Mode Mobile */}
                 <div className="flex justify-between items-center h-12">
                     <div className="dark:text-white">
@@ -19,10 +19,10 @@ const Navigation = () => {
                         </Link>
                     </div>
                     <div className="flex">
-                        <div className='md:hidden'>
+                        <div className='lg:hidden'>
                             <Toggle />
                         </div>
-                        <div className="md:hidden items-center flex">
+                        <div className="lg:hidden items-center flex">
                             <button
                                 className=" hover:scale-110 duration-100"
                                 onClick={() => (
@@ -66,42 +66,47 @@ const Navigation = () => {
                 </div>
                 <div className='flex items-center'>
                     <div
-                        className={`md:items-center md:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
+                        className={`lg:items-center lg:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
                         onClick={() => { setNavbar(!navbar) }}
                     >
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                            <NavLink to="/">
+                                Beranda
+                            </NavLink>
+                        </div>
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="/bahasan">
                                 Pokok Bahasan
                             </NavLink>
                         </div>
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="/peraturan">
                                 Peraturan Terkait
                             </NavLink>
                         </div>
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="/kuis">
                                 Kuis
                             </NavLink>
                         </div>
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="/templat">
                                 Templat Surat
                             </NavLink>
                         </div>
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="/survei">
                                 Survei
                             </NavLink>
                         </div>
-                        <div className="h-9 md:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="artikel">
                                 Artikel
                             </NavLink>
                         </div>
                     </div>
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <Toggle className="" />
                 </div>
             </div>
