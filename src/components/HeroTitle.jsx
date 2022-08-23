@@ -1,17 +1,11 @@
 import React from 'react'
 import { Zoom, Fade } from 'react-awesome-reveal'
-import ReactTypingEffect from 'react-typing-effect';
 
 const HeroTitle = () => {
     return (
         <div className="dark:text-white bg-[#a1c950] dark:bg-[#0f172a]">
-            <div className="flex flex-col items-center justify-evenly w-full h-screen relative">
-                <ReactTypingEffect
-                    className='text-md text-center lg:text-xl'
-                    text={["Selamat Datang", "Terima kasih sudah berkunjung"]}
-                    speed="50"
-                    eraseSpeed="50"
-                />
+            <div className="flex flex-col items-center justify-center w-full h-screen relative">
+
                 <Zoom>
                     <div className='font-Oranienbaum font-bold text-6xl lg:text-8xl'>DISIPLIN PNS</div >
                 </Zoom>

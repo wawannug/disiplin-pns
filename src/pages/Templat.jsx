@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { templat } from '../data/templat'
-import { Slide, Zoom, Fade, Bounce } from "react-awesome-reveal";
+import { Slide, Fade, Bounce } from "react-awesome-reveal";
 
 const Templat = () => {
 

@@ -15,7 +15,7 @@ const Navigation = () => {
                 <div className="flex justify-between items-center h-12">
                     <div className="dark:text-white">
                         <Link to="/">
-                            <img src={Logo} className="h-8 bg-lime-200 dark:bg-[#1C2C50] shadow-xl  rounded p-1 " />
+                            <img alt="logo" src={Logo} className="h-8 bg-lime-200 dark:bg-[#1C2C50] shadow-xl  rounded p-1 " />
                         </Link>
                     </div>
                     <div className="flex">

@@ -36,10 +36,10 @@ const PejabatBerwenang = () => {
                     <div>
                         <div className="bg-[#BDD293] dark:bg-[#0f172a] outline outline-black outline-1 dark:outline-white p-2 my-4 rounded-xl text-justify">
                             {detil.penjelasan}
-                            {detil?.pihak1 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak1}</div>}
-                            {detil?.pihak2 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak2}</div>}
-                            {detil.pihak3 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak3}</div>}
-                            {detil.pihak4 && <div className="pl-1 my-1 outline outline-1 outline-black rounded-xl">{detil?.pihak4}</div>}
+                            {detil?.pihak1 && <div className="pl-1 my-1 outline outline-1 outline-black dark:outline-white rounded-xl">{detil?.pihak1}</div>}
+                            {detil?.pihak2 && <div className="pl-1 my-1 outline outline-1 outline-black dark:outline-white rounded-xl">{detil?.pihak2}</div>}
+                            {detil.pihak3 && <div className="pl-1 my-1 outline outline-1 outline-black dark:outline-white rounded-xl">{detil?.pihak3}</div>}
+                            {detil.pihak4 && <div className="pl-1 my-1 outline outline-1 outline-black dark:outline-white rounded-xl">{detil?.pihak4}</div>}
                             {detil?.keterangan}
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { daftarArtikel } from '../data/daftarArtikel'
-import { JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
+import { JackInTheBox, Slide } from "react-awesome-reveal";
 
 const KomponenArtikel = () => {
 
