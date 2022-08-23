@@ -2,12 +2,12 @@ export const prosedur = [
     {
         id: 1,
         tahapan: "Pemanggilan",
-        gambar: "pemanggilan.jpg",
+        gambar: "https://drive.google.com/uc?export=view&id=1rOh4MWA9nlbhgarFXIMTY_hB9y8fTq1Z",
     },
     {
         id: 2,
         tahapan: "Pemeriksaan",
-        gambar: "pemeriksaan.jpg",
+        gambar: "https://drive.google.com/uc?export=view&id=1gqshi-1romCqT4Tr61eQooPeHLmu3Xlu",
     },
     {
         id: 3,

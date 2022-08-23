@@ -39,7 +39,7 @@ const KomponenArtikel = () => {
                     <img
                         className="cursor-pointer"
                         onClick={() => navigate(daftarArtikel[move].link)}
-                        src={require('../assets/images/' + daftarArtikel[move].gambar)}
+                        src={daftarArtikel[move].gambar}
                         alt={daftarArtikel[move.judul]} />
                     <button
                         className="absolute top-1/2 mx-1 px-3 bg-white rounded-full outline outline-1"

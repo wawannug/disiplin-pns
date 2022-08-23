@@ -25,7 +25,7 @@ const Artikel3TataCaraPemeriksaan = () => {
             </div>
             <div>
                 <h1 className="text-center text-xl mt-6 font-bold">{prosedur[tahapan].tahapan}</h1>
-                {prosedur[tahapan].gambar && <img alt={prosedur[tahapan]?.gambar} className="w-full mx-auto outline outline-1 mt-6" src={require('../../assets/images/' + prosedur[tahapan]?.gambar)} />}
+                {prosedur[tahapan].gambar && <img alt={prosedur[tahapan]?.gambar} className="w-full mx-auto outline outline-1 mt-6" src={prosedur[tahapan]?.gambar} />}
                 {prosedur[tahapan].rincian && prosedur[tahapan].rincian.map((item) => (
                     <div className="p-2 m-2 bg-green-200 dark:bg-[#0f172a] dark:outline dark:outline-white dark:outline-1 rounded-xl">{item.detil}</div>
                 ))}

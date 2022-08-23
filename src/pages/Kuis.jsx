@@ -45,7 +45,7 @@ function Kuis() {
                     <Start setUsername={setUsername} />
                 ) : (
                     <>
-                        <div className="w-3/4 flex flex-col bg-[url('/src/assets/images/background.jpg')] bg-no-repeat bg-cover bg-center">
+                        <div className="w-3/4 flex flex-col bg-[url('https://drive.google.com/uc?export=view&id=1rrDXUsV7klM3qz4l3TnaGQmfcSOykV2s')] bg-no-repeat bg-cover bg-center">
                             {timeOut ? (
                                 questionNumber === kuis.length + 1 ? (
                                     <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">

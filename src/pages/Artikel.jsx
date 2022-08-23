@@ -20,7 +20,7 @@ const Artikel = () => {
                         <div
                             onClick={() => navigate(item.link)}
                             className=" mx-auto outline outline-1 cursor-pointer shadow-xl ">
-                            <img className="hover:scale-110 duration-200" src={require('../assets/images/' + item.gambar)} alt={item.gambar} />
+                            <img className="hover:scale-110 duration-200" src={item.gambar} alt={item.gambar} />
                         </div>
                     </JackInTheBox>
                 ))}
