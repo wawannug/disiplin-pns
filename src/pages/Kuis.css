@@ -1,6 +1,7 @@
 .answers {
     width: 100%;
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -20,8 +21,13 @@
 
 @media screen and (max-width: 768px) {
     .answer {
-        width: 80%;
-        margin: 0 0 10px 0;
+        width: 100%;
+        margin: 5px 0 0 0;
+        font-size: 12px;
+    }
+
+    .answers {
+        margin-top: 10px;
     }
 }
 

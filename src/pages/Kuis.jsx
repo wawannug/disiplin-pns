@@ -39,61 +39,64 @@ function Kuis() {
     }, [questionNumber, moneyPyramid]);
 
     return (
-        <div className="min-h-screen flex bg-[#020230] text-white">
-            {!username ? (
-                <Start setUsername={setUsername} />
-            ) : (
-                <>
-                    <div className="w-3/4 flex flex-col bg-[url('/src/assets/images/background.jpg')] bg-no-repeat bg-cover bg-center">
-                        {timeOut ? (
-                            questionNumber === kuis.length ? (
-                                <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
-                                    <h1 className="">Selamat {username}, Anda berhasil memenangkan kuis ini</h1>
-                                </div>
+        <div>
+            <div className="min-h-screen max-h-2xl flex bg-[#020230] text-white">
+                {!username ? (
+                    <Start setUsername={setUsername} />
+                ) : (
+                    <>
+                        <div className="w-3/4 flex flex-col bg-[url('/src/assets/images/background.jpg')] bg-no-repeat bg-cover bg-center">
+                            {timeOut ? (
+                                questionNumber === kuis.length + 1 ? (
+                                    <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
+                                        <h1 className="">Selamat {username}, Anda berhasil memenangkan kuis ini</h1>
+                                    </div>
+                                ) : (
+                                    <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
+                                        <h1 className="relative top-0 bottom-0 left-0 right-0 m-auto">Mohon maaf, jawaban Anda salah, Anda terhenti di level ke-{Number(earned) + 1}</h1>
+                                    </div>
+                                )
                             ) : (
-                                <div className="relative top-0 bottom-0 left-0 right-0 m-auto bg-slate-600 p-10 rounded-full">
-                                    <h1 className="relative top-0 bottom-0 left-0 right-0 m-auto">Mohon maaf, jawaban Anda salah, Anda terhenti di level ke-{Number(earned) + 1}</h1>
-                                </div>
-                            )
-                        ) : (
-                            <>
-                                <div className="h-1/4 relative">
-                                    <div className="w-[56px] h-[56px] ml-[-28px] timer left-1/2 text-xl font-bold flex items-center justify-center absolute border-4 rounded-full bottom-[10px]">
-                                        <Timer
-                                            setTimeOut={setTimeOut}
+                                <>
+                                    <div className="h-1/4 relative">
+                                        <div className="w-[56px] h-[56px] ml-[-28px] timer left-1/2 text-xl font-bold flex items-center justify-center absolute border-4 rounded-full bottom-[10px]">
+                                            <Timer
+                                                setTimeOut={setTimeOut}
+                                                questionNumber={questionNumber}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="h-3/4 max-h-full ">
+                                        <Trivia
+                                            kuis={kuis}
                                             questionNumber={questionNumber}
+                                            setQuestionNumber={setQuestionNumber}
+                                            setTimeOut={setTimeOut}
                                         />
                                     </div>
-                                </div>
-                                <div className="h-3/4">
-                                    <Trivia
-                                        kuis={kuis}
-                                        questionNumber={questionNumber}
-                                        setQuestionNumber={setQuestionNumber}
-                                        setTimeOut={setTimeOut}
-                                    />
-                                </div>
-                            </>
-                        )}
-                    </div>
-                    <div className="md:w-1/4 flex items-center justify-center">
-                        <ul className=" mt-20 mb-4">
-                            {moneyPyramid.map((m) => (
-                                <li
-                                    key={m.id}
-                                    className={
-                                        questionNumber === m.id
-                                            ? "bg-teal-500 flex items-center rounded-md"
-                                            : "flex items-center rounded-md"
-                                    }
-                                >
-                                    <span className="text-xl p-1 mx-auto text-center justify-self-center" key={m.id}>Level {m.level}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </>
-            )}
+                                </>
+                            )}
+                        </div>
+                        <div className="md:w-1/4 flex items-center justify-center ">
+                            <ul className="mt-16 outline outline-gray-400 outline-1 lg:px-16 ">
+                                {moneyPyramid.map((m) => (
+                                    <li
+                                        key={m.id}
+                                        className={
+                                            questionNumber === m.id
+                                                ? "bg-teal-500 flex items-center rounded-md"
+                                                : "flex items-center rounded-md"
+                                        }
+                                    >
+                                        <span className="text-md md:text-xl p-1 mx-auto text-center justify-self-center" key={m.id}>Level {m.level}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </>
+                )}
+            </div>
+            <div className="bg-[#020230] h-20"></div>
         </div>
     );
 }
