@@ -36,14 +36,12 @@ export default function Trivia({
     const handleClick = (a) => {
         setSelectedAnswer(a);
         setClassName("answer active");
-        delay(1000, () => {
-            setClassName(a.correct ? "answer correct" : "answer wrong");
-        });
+        setClassName(a.correct ? "answer correct" : "answer wrong");
 
-        delay(2000, () => {
+        delay(500, () => {
             if (a.correct) {
                 // correctAnswer();
-                delay(1000, () => {
+                delay(100, () => {
                     if (questionNumber === kuis.length) {
                         setQuestionNumber((prev) => prev + 1);
                         setTimeOut(true)
@@ -54,7 +52,7 @@ export default function Trivia({
                 });
             } else {
                 // wrongAnswer();
-                delay(1000, () => {
+                delay(100, () => {
                     setTimeOut(true);
                 });
 

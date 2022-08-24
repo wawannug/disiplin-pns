@@ -9,15 +9,14 @@ import Background from '../src/mode/Background';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <ThemeProvider>
-        <Background>
-          <App />
-        </Background>
-      </ThemeProvider>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <ThemeProvider>
+      <Background>
+        <App />
+      </Background>
+    </ThemeProvider>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 

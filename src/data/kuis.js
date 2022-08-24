@@ -48,7 +48,7 @@ export const kuis = [
         question: "Berikut yang tidak termasuk larangan PNS adalah ….",
         answers: [
             {
-                text: "Memiliki, menjual, membeli, menggadaikan, menyewakan atau meminjamkan barang baik bergerak atau tidak bergerak, dokumen, atau surat berharga milik negara secara sah",
+                text: "Memiliki, menjual, membeli, menggadaikan, menyewakan atau meminjamkan barang baik bergerak atau tidak bergerak secara sah",
                 correct: true,
             },
             {
@@ -155,22 +155,22 @@ export const kuis = [
     },
     {
         id: 8,
-        question: "Atasan yang tidak melakukan pemanggilan dan pemeriksaan terhadap PNS yang diduga melakukan pelanggaran disiplin ….",
+        question: "Atasan langsung yang tidak melakukan pemanggilan dan pemeriksaan terhadap PNS yang diduga melakukan pelanggaran disiplin ….",
         answers: [
             {
                 text: "Tidak dijatuhi hukuman disiplin",
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin lebih ringan dari PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin lebih ringan",
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin sama dengan dari PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin sama",
                 correct: false,
             },
             {
-                text: "Dijatuhi hukuman disiplin lebih berat dari PNS yang diduga melakukan pelanggaran",
+                text: "Dijatuhi hukuman disiplin lebih berat",
                 correct: true,
             },
         ]
