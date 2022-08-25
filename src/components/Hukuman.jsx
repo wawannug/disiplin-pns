@@ -35,18 +35,18 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[0].kewajiban.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='text-justify border p-2'>{isi.wajib}</td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.wajib}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -58,24 +58,24 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='text-justify border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='text-justify border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='text-justify borde border-black dark:border-whiter p-2'>Kewajiban yang dilanggar</th>
+                                <th className='text-justify border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[0].kewajibanLain.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
                                                     isi.rincian.map((detil) => <div className="text-justify p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -86,23 +86,23 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Larangan yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Larangan yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[0].larangan.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
                                                 <div className="text-justify">{isi.rincian && isi.rincian}<br /></div>
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -128,18 +128,18 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[1].kewajiban.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='text-justify border p-2'>{isi.wajib}</td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.wajib}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -151,24 +151,24 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='text-justify border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='text-justify border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='text-justify border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
+                                <th className='text-justify border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[1].kewajibanLain.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
                                                     isi.rincian.map((detil) => <div className="p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -179,23 +179,23 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Larangan yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Larangan yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[1].larangan.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
                                                 <div>{isi.rincian && isi.rincian}<br /></div>
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -221,18 +221,18 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[2].kewajiban.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='text-justify border p-2'>{isi.wajib}</td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.wajib}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -244,24 +244,24 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='text-justify border p-2'>Kewajiban yang dilanggar</th>
-                                <th className='text-justify border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='text-justify border border-black dark:border-white  p-2'>Kewajiban yang dilanggar</th>
+                                <th className='text-justify border border-black dark:border-white  p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[2].kewajibanLain.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
                                                     isi.rincian.map((detil) => <div className="p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }
@@ -272,23 +272,23 @@ function Hukuman() {
                     <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
-                                <th className='border p-2'>No</th>
-                                <th className='border p-2'>Larangan yang dilanggar</th>
-                                <th className='border p-2'>Keterangan</th>
+                                <th className='border border-black dark:border-white p-2'>No</th>
+                                <th className='border border-black dark:border-white p-2'>Larangan yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
                         <tbody>
                             {
                                 hukuman[2].larangan.map((isi) => (
                                     <tr>
-                                        <td className='border p-2'>{isi.id}</td>
-                                        <td className='border p-2'>
+                                        <td className='border border-black dark:border-white p-2'>{isi.id}</td>
+                                        <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
                                                 {isi.rincian && <div> {isi.rincian}</div>}
                                             </details>
                                         </td>
-                                        <td className='text-justify border p-2'>{isi.dampak}</td>
+                                        <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
                                     </tr>
                                 ))
                             }

@@ -17,6 +17,7 @@ const PeraturanTerkait = () => {
                         <a
                             className="flex min-h-full flex-col text-center justify-center items-centerh-32 w-full bg-[#D4FF80] hover:bg-slate-200 hover:scale-105 duration-300 dark:bg-[#0f172a] dark:text-white dark:outline dark:outline-white rounded-xl p-3"
                             href={item.link}
+                            target="_blank"
                             rel="noreferrer"
                         >
                             <div className="text-lg font-bold">{item.peraturan}</div>

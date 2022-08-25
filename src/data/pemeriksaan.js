@@ -16,7 +16,7 @@ export const pemeriksaan = [
                 keterangan: "",
             },
             {
-                uraian: "Apabila pada pemanggilan kedua sebagaimana dimaksud pada ayat (3) PNS yang bersangkutan tidak hadir juga, maka Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin berdasarkan alat bukti dan keterangan yang ada tanpa dilakukan pemeriksaan.",
+                uraian: "Apabila pada pemanggilan kedua PNS yang bersangkutan tidak hadir juga, maka Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin berdasarkan alat bukti dan keterangan yang ada tanpa dilakukan pemeriksaan.",
                 keterangan: "",
             }
         ]
@@ -52,7 +52,7 @@ export const pemeriksaan = [
                 keterangan: ""
             },
             {
-                uraian: "(2)	Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin yang lebih berat kepada atasan langsung sebagaimana dimaksud pada ayat (1) dilakukan setelah melalui proses pemeriksaan.",
+                uraian: "Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin yang lebih berat kepada atasan langsung dilakukan setelah melalui proses pemeriksaan.",
                 keterangan: "",
             }
         ],
@@ -62,11 +62,11 @@ export const pemeriksaan = [
         bagian: "Tim Pemeriksa",
         konten: [
             {
-                uraian: "Pelanggaran terhadap kewajiban dan/atau larangan dengan Hukuman Disiplin sedang sebagaimana dimaksud dalam Pasal 10 dan Pasal 13 dapat dilakukan pemeriksaan oleh tim pemeriksa.",
+                uraian: "Pelanggaran terhadap kewajiban dan/atau larangan dengan Hukuman Disiplin sedang dapat dilakukan pemeriksaan oleh tim pemeriksa.",
                 keterangan: "",
             },
             {
-                uraian: "Pelanggaran terhadap kewajiban dan/atau larangan dengan Hukuman Disiplin berat sebagaimana dimaksud dalam Pasal 11 dan Pasal 14 dilakukan pemeriksaan oleh tim pemeriksa.",
+                uraian: "Pelanggaran terhadap kewajiban dan/atau larangan dengan Hukuman Disiplin berat dilakukan pemeriksaan oleh tim pemeriksa.",
                 keterangan: ""
             },
             {
