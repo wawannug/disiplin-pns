@@ -32,7 +32,7 @@ function Hukuman() {
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Kewajiban</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[0].tingkat} dijatuhkan bagi pelanggaran terhadap kewajiban:</h3>
 
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -55,7 +55,7 @@ function Hukuman() {
 
 
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[0].tingkat} dijatuhkan bagi dijatuhkan bagi PNS yang tidak memenuhi ketentuan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -83,7 +83,7 @@ function Hukuman() {
                     </table>
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Larangan</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[0].tingkat} dijatuhkan bagi PNS yang melanggar ketentuan larangan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -125,7 +125,7 @@ function Hukuman() {
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Kewajiban</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[1].tingkat} dijatuhkan bagi pelanggaran terhadap kewajiban:</h3>
 
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -148,7 +148,7 @@ function Hukuman() {
 
 
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[1].tingkat} dijatuhkan bagi dijatuhkan bagi PNS yang tidak memenuhi ketentuan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -176,7 +176,7 @@ function Hukuman() {
                     </table>
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Larangan</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[1].tingkat} dijatuhkan bagi PNS yang melanggar ketentuan larangan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -218,7 +218,7 @@ function Hukuman() {
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Kewajiban</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[2].tingkat} dijatuhkan bagi pelanggaran terhadap kewajiban:</h3>
 
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -241,7 +241,7 @@ function Hukuman() {
 
 
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[2].tingkat} dijatuhkan bagi dijatuhkan bagi PNS yang tidak memenuhi ketentuan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>
@@ -269,7 +269,7 @@ function Hukuman() {
                     </table>
                     <h2 className="text-center text-xl mt-4">Pelanggaran terhadap Larangan</h2>
                     <h3 className='text-center font-bold mt-4'>Hukuman Disiplin {hukuman[2].tingkat} dijatuhkan bagi PNS yang melanggar ketentuan larangan:</h3>
-                    <table className="border-collapse shadow border border-black">
+                    <table className="border-collapse shadow border border-black bg-[#e4fab8] dark:bg-[#0f172a]">
                         <thead>
                             <tr>
                                 <th className='border p-2'>No</th>

@@ -34,7 +34,7 @@ const KomponenKewajiban = () => {
                 <div className="text-center font-bold ">PNS wajib:</div>
                 {wajib[0] ? wajib
                     .map((item) => (
-                        <details className="flex flex-column items-center outline outline-1 my-2 p-1 text-justify rounded bg-[#BDD293] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
+                        <details className="flex flex-column items-center outline outline-1 my-2 p-1 text-justify rounded bg-[#e4fab8] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
                             <summary className="list-none flex cursor-pointer">
                                 <div className="self-center flex-none w-10">
                                     <img className="p-2" src={require('../assets/icons/' + item.ikon + '.svg')} alt={item.kewajiban} />
@@ -49,7 +49,7 @@ const KomponenKewajiban = () => {
                                 ))}
                             </div>
                         </details>
-                    )) : <div className="flex flex-column items-center outline outline-1 my-2 p-1 justify-center rounded bg-[#BDD293] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
+                    )) : <div className="flex flex-column items-center outline outline-1 my-2 p-1 justify-center rounded bg-[#e4fab8] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
                     Tidak ditemukan kewajiban tersebut
                 </div>}
 
@@ -57,7 +57,7 @@ const KomponenKewajiban = () => {
                 {
                     wajibLain[0] ? wajibLain
                         .map((item) => (
-                            <details className="flex flex-column items-center outline outline-1 my-2 p-1 text-justify rounded bg-[#BDD293] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
+                            <details className="flex flex-column items-center outline outline-1 my-2 p-1 text-justify rounded bg-[#e4fab8] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">
                                 <summary className="list-none flex cursor-pointer">
                                     <div className="self-center flex-none w-10">
                                         <img className="p-2" src={require('../assets/icons/' + item.ikon + '.svg')} alt={item.kewajibanLain} />
@@ -69,7 +69,7 @@ const KomponenKewajiban = () => {
                                     {item.penjelasan}
                                 </div>
                             </details>
-                        )) : <div className="flex flex-column items-center outline outline-1 my-2 p-1 justify-center rounded bg-[#BDD293] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">Tidak ditemukan kewajiban tersebut</div>
+                        )) : <div className="flex flex-column items-center outline outline-1 my-2 p-1 justify-center rounded bg-[#e4fab8] dark:bg-[#0f172a] divide-y-2 divide-black dark:divide-white duration-300">Tidak ditemukan kewajiban tersebut</div>
                 }
             </div>
         </div >

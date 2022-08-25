@@ -1,23 +1,23 @@
 export const pedomanPelaksanaan = [
     {
         id: 1,
-        ketentuan: "pelanggaran terhadap kewajiban dan/atau larangan"
+        ketentuan: "Pelanggaran terhadap Kewajiban dan/atau Larangan"
     },
     {
         id: 2,
-        ketentuan: "mekanisme pemeriksaan dugaan pelanggaran hukuman disiplin"
+        ketentuan: "Mekanisme pemeriksaan Dugaan Pelanggaran Hukuman Disiplin"
     },
     {
         id: 3,
-        ketentuan: "mekanisme penetapan penjatuhan hukuman disiplin"
+        ketentuan: "Mekanisme Penetapan Penjatuhan Hukuman Disiplin"
     },
     {
         id: 4,
-        ketentuan: "mekanisme penyelesaian dugaan pelanggaran jam kerja"
+        ketentuan: "Mekanisme Penyelesaian Dugaan pelanggaran Jam Kerja"
     },
     {
         id: 5,
-        ketentuan: "implementas pemotongan tunjangan terhadap Pegawai Negeri Sipil yang dijatuhi hukuman disiplin"
+        ketentuan: "Implementas Pemotongan Tunjangan terhadap Pegawai Negeri Sipil yang Dijatuhi Hukuman Disiplin"
     }
 ]
 
@@ -168,154 +168,155 @@ export const pemeriksaan = [
 export const penetapan = [
     {
         id: "a",
-        uraian: "pejabat yang berwenang menghukum dan melakukan penetapan penjatuhan hukuman disiplin sesuai dengan. ketentuan Peraturan Pemerintah Nomor 94 Tahun 2021 tentang Disiplin Pegawai Negeri Sipi"
+        uraian: "Pejabat yang berwenang menghukum dan melakukan penetapan penjatuhan hukuman disiplin sesuai dengan. ketentuan Peraturan Pemerintah Nomor 94 Tahun 2021 tentang Disiplin Pegawai Negeri Sipil"
     },
     {
         id: "b",
-        uraian: "tingkat dan jenis hukuman disiplin",
-        jenis: [
+        uraian: "Tingkat dan jenis hukuman disiplin",
+    }
+]
+
+export const jenisHukuman = [
+    {
+        id: 1,
+        tingkat: "Ringan",
+        tingkatan: [
             {
                 id: 1,
-                tingkat: "ringan",
-                tingkatan: [
-                    {
-                        id: 1,
-                        jenis: "teguran lisan"
-                    },
-                    {
-                        id: 2,
-                        jenis: "teguran tertulis"
-                    },
-                    {
-                        id: 3,
-                        jenis: "pernyataan tidak puas secara tertulis"
-                    }
-                ]
+                jenis: "teguran lisan"
             },
             {
                 id: 2,
-                tingkat: "sedang",
-                tingkatan: [
+                jenis: "teguran tertulis"
+            },
+            {
+                id: 3,
+                jenis: "pernyataan tidak puas secara tertulis"
+            }
+        ]
+    },
+    {
+        id: 2,
+        tingkat: "Sedang",
+        tingkatan: [
+            {
+                id: 1,
+                jenis: "penundaan kenaikan gaji berkala selama 1 (satu) tahun;"
+            },
+            {
+                id: 2,
+                jenis: "penundaan kenaikan pangkat selama 1 (satu) tahun; dan",
+            },
+            {
+                id: 3,
+                jenis: "penurunan pangkat setingkat lebih rendah selama 1 (satu) tahun; dan"
+            }
+        ]
+    },
+    {
+        id: 3,
+        tingkat: "Berat",
+        tingkatan: [
+            {
+                id: 1,
+                pihak: "Pejabat Pengawas yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya dilakukan melalui:",
+                hukuman: [
                     {
-                        id: 1,
-                        jenis: "penundaan kenaikan gaji berkala selama 1 (satu) tahun;"
+                        id: "a)",
+                        hukuman: "pemberhentian dari Jabatan Pengawas"
                     },
                     {
-                        id: 2,
-                        jenis: "penundaan kenaikan pangkat selama 1 (satu) tahun; dan",
+                        id: "b)",
+                        hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat paling tinggi berdasarkan pangkat/golongan ruang dan pendidikan terakhir,"
+                    }
+                ],
+                keterangan: "selama 12 (dua belas) bulan.",
+            },
+            {
+                id: 2,
+                pihak: "Pejabat Fungsional jenjang terendah pada kategorinya yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya dilakukan melalui:",
+                hukuman: [
+                    {
+                        id: "a)",
+                        hukuman: "pemberhentian dari Jabatan Fungsional; dan",
                     },
                     {
-                        id: 3,
-                        jenis: "penurunan pangkat setingkat lebih rendah selama 1 (satu) tahun; dan"
+                        id: "b)",
+                        hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat paling tinggi berdasarkan pangkat/ golongan ruang dan pendidikan terakhir serta tidak lebih tinggi dari peringkat jabatan terakhir sebagai Pejabat Fungsional sebelumnya,",
+                    }
+                ],
+                keterangan: "selama 12 (dua belas) bulan"
+            },
+            {
+                id: 3,
+                pihak: "Pelaksana yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya sebagai berikut:",
+                hukuman: [
+                    {
+                        id: "a)",
+                        hukuman: "untuk Pelaksana Umum ditetapkan penurunan jabatan dan peringkat jabatan selama 12 (dua belas) bulan; dan"
+                    },
+                    {
+                        id: "b)",
+                        hukuman: "untuk Pelaksana Khusus, Pelaksana Tugas Belajar dan Pelaksana Tertentu ditetapkan sebagai Pelaksana Umum memperhatikan pangkatigolongan ruang dan pendidikan terakhir dan peringkat jabatan sebelumnya."
+                    }
+                ],
+            },
+            {
+                id: 4,
+                pihak: "Pejabat Pengawas yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya melalui:",
+                hukuman: [
+                    {
+                        id: "a)",
+                        hukuman: "pemberhentian dari Jabatan Pengawas, dan",
+                    },
+                    {
+                        id: "b)",
+                        hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat 1 (satu) tingkat lebih rendah dari jabatan. dan peringkat paling tinggi berdasarkan pangkatigolongan ruang dan pendidikan terakhir",
+                    }
+                ],
+                keterangan: "selama 12 (dua belas) bulan."
+            },
+            {
+                id: 5,
+                pihak: "Pejabat Fungsional jenjang terendah pada kategorinya yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya dilakukan melalui:",
+                hukuman: [
+                    {
+                        id: "a)",
+                        hukuman: "pemberhentian dari Jabatan Fungsional;",
+                    },
+                    {
+                        id: "b)",
+                        hukuman: "penetapan. sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat baru dengan mempertimbangkan pangkat/go1ongan dan pendidikan serta peringkat jabatan sebagai Pejabat Fungsional terakhir; dan"
+                    },
+                    {
+                        id: "c)",
+                        hukuman: "penetapan jabatan dan peringkat baru sebagaimana dimaksud dalam h-uruf b), tidak lebih tinggi dari penetapan jabatan dan peringkat pada penjatuhan hukuman disiplin berat berupa penurunan jabatan. setingkat lebih rendah selama 12 (dua belas) bulan",
                     }
                 ]
             },
             {
-                id: 3,
-                tingkat: "berat",
-                tingkatan: [
+                id: 6,
+                pihak: "Pelaksana yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
+                penjelasan: "penerapannya sebagai berikut:",
+                hukuman: [
                     {
-                        id: 1,
-                        pihak: "Pejabat Pengawas yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya dilakukan melalui:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "pemberhentian dari Jabatan Pengawas"
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat paling tinggi berdasarkan pangkat/golongan ruang dan pendidikan terakhir,"
-                            }
-                        ],
-                        keterangan: "selama 12 (dua belas) bulan.",
+                        id: "a)",
+                        hukuman: "untuk Pelaksana umum ditetapkan penurunan jabatan dan peringkat jabatan baru selama 12 (dua belas) bulan;"
                     },
                     {
-                        id: 2,
-                        pihak: "Pejabat Fungsional jenjang terendah pada kategorinya yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya dilakukan melalui:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "pemberhentian dari Jabatan Fungsional; dan",
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat paling tinggi berdasarkan pangkat/ golongan ruang dan pendidikan terakhir serta tidak lebih tinggi dari peringkat jabatan terakhir sebagai Pejabat Fungsional sebelumnya,",
-                            }
-                        ],
-                        keterangan: "selama 12 (dua belas) bulan"
+                        id: "b)",
+                        hukuman: "untuk Pelaksana Khusus, Pelaksana Tugas Belajar dan Pelaksana Tertentu ditetapkan sebagai Pelaksana Umum memperhatikan pangkat/golongan ruang dan pendidikan terakhir dan peringkat jabatan sebelumnya; dan"
                     },
                     {
-                        id: 3,
-                        pihak: "Pelaksana yang dijatuhi hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya sebagai berikut:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "untuk Pelaksana Umum ditetapkan penurunan jabatan dan peringkat jabatan selama 12 (dua belas) bulan; dan"
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "untuk Pelaksana Khusus, Pelaksana Tugas Belajar dan Pelaksana Tertentu ditetapkan sebagai Pelaksana Umum memperhatikan pangkatigolongan ruang dan pendidikan terakhir dan peringkat jabatan sebelumnya."
-                            }
-                        ],
-                    },
-                    {
-                        id: 4,
-                        pihak: "Pejabat Pengawas yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya melalui:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "pemberhentian dari Jabatan Pengawas, dan",
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "penetapan sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat 1 (satu) tingkat lebih rendah dari jabatan. dan peringkat paling tinggi berdasarkan pangkatigolongan ruang dan pendidikan terakhir",
-                            }
-                        ],
-                        keterangan: "selama 12 (dua belas) bulan."
-                    },
-                    {
-                        id: 5,
-                        pihak: "Pejabat Fungsional jenjang terendah pada kategorinya yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya dilakukan melalui:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "pemberhentian dari Jabatan Fungsional;",
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "penetapan. sebagai Pelaksana Umum dengan diberikan jabatan dan peringkat baru dengan mempertimbangkan pangkat/go1ongan dan pendidikan serta peringkat jabatan sebagai Pejabat Fungsional terakhir; dan"
-                            },
-                            {
-                                id: "c)",
-                                hukuman: "penetapan jabatan dan peringkat baru sebagaimana dimaksud dalam h-uruf b), tidak lebih tinggi dari penetapan jabatan dan peringkat pada penjatuhan hukuman disiplin berat berupa penurunan jabatan. setingkat lebih rendah selama 12 (dua belas) bulan",
-                            }
-                        ]
-                    },
-                    {
-                        id: 6,
-                        pihak: "Pelaksana yang dijatuhi hukuman disiplin berat berupa pembebasan dari jabatan selama 12 (dua belas) bulan",
-                        penjelasan: "penerapannya sebagai berikut:",
-                        hukuman: [
-                            {
-                                id: "a)",
-                                hukuman: "untuk Pelaksana umum ditetapkan penurunan jabatan dan peringkat jabatan baru selama 12 (dua belas) bulan;"
-                            },
-                            {
-                                id: "b)",
-                                hukuman: "untuk Pelaksana Khusus, Pelaksana Tugas Belajar dan Pelaksana Tertentu ditetapkan sebagai Pelaksana Umum memperhatikan pangkat/golongan ruang dan pendidikan terakhir dan peringkat jabatan sebelumnya; dan"
-                            },
-                            {
-                                id: "c)",
-                                hukuman: "penetapan jabatan dan peringkat sebagaimana dimaksud dalam huruf a) dan huruf b), tidak lebih tinggi dari penerapan jabatan dan peringkat pada penjatuhan hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan.",
-                            }
-                        ],
+                        id: "c)",
+                        hukuman: "penetapan jabatan dan peringkat sebagaimana dimaksud dalam huruf a) dan huruf b), tidak lebih tinggi dari penerapan jabatan dan peringkat pada penjatuhan hukuman disiplin berat berupa penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan.",
                     }
-                ]
+                ],
             }
         ]
     }

@@ -17,4 +17,10 @@ export const daftarArtikel = [
         gambar: "https://drive.google.com/uc?export=view&id=1zRzdnnVi4zVtzRk3y7T8eL5GHuWX_XdM",
         link: "/artikel3"
     },
+    {
+        id: 4,
+        judul: "Pedoman Pelaksanaan Peraturan Pemerintah Nomor 94 Tahun 2021 tentang Disiplin Pegawai Negeri Sipil di Lingkungan Kementerian Keuangan",
+        gambar: "https://drive.google.com/uc?export=view&id=1t-aQ11nyB5SwOPNgW-eehEqVxPtD8ZDz",
+        link: "/artikel4"
+    },
 ]

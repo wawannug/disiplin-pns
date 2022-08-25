@@ -31,7 +31,7 @@ const TataCaraPemeriksaan = () => {
             <div className="mt-6 rounded-md ">
                 {
                     pemeriksaan[pasal].konten && pemeriksaan[pasal].konten.map((detil) => (
-                        <div className="m-2 p-3 rounded-xl bg-[#BDD293] dark:bg-[#0f172a] dark:outline-white dark:outline dark:outline-1 text-justify">{detil.uraian}</div>
+                        <div className="m-2 p-3 rounded-xl bg-[#e4fab8] dark:bg-[#0f172a] dark:outline-white dark:outline dark:outline-1 text-justify">{detil.uraian}</div>
                     ))
                 }
             </div>
