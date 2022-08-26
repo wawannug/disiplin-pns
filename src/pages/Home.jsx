@@ -4,6 +4,7 @@ import PokokBahasan from '../components/PokokBahasan'
 import Peraturan from '../components/Peraturan'
 import KomponenArtikel from '../components/KomponenArtikel'
 import ChatBotHelper from './ChatbotHelper'
+import VideoPanduan from '../components/VideoPanduan'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <PokokBahasan />
             <Peraturan />
             <KomponenArtikel />
+            <VideoPanduan />
             <ChatBotHelper />
         </div>
     )
