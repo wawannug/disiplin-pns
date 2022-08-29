@@ -76,7 +76,7 @@ export const pejabat = [
                 penjelasan: "Pejabat Pimpinan Tinggi Pratama atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi:",
                 pihak1: "PNS di lingkungannya yang berada 1 (satu} tingkat di bawahnya untuk jenis Hukuman Disiplin ringan;",
                 pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin sedang; dan",
-                pihak3: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin sedang; dan"
+                pihak3: " Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin untuk jenis Hukuman Disiplin ringan dan sedang."
             },
         ]
     },
@@ -86,7 +86,7 @@ export const pejabat = [
         info: [
             {
                 penjelasan: "Pejabat Administrator atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi",
-                pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan",
+                pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan;",
                 pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin sedang; dan",
                 pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin ringan dan sedang.",
             },

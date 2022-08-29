@@ -33,7 +33,7 @@ export const kewajibanLain = [
         id: "f",
         kewajibanLain: "masuk kerja dan menaati ketentuan jam kerja",
         ikon: "klf",
-        penjelasan: "Yang dimaksud dengan \"Masuk Kerja dan menaati ketentuan jam kerja\" adalah kewajiban melaksanakan tugas sesuai dengan ketentuan sistem kerja yang dapat dilaksanakan melalui fleksibilitas dalam pengaturan lokasi dan waktu bekerja PNS."
+        penjelasan: "Yang dimaksud dengan \"Masuk Kerja dan menaati ketentuan jam kerja\" adalah kewajiban melaksanakan tugas sesuai dengan ketentuan sistem kerja yang dapat dilaksanakan melalui fleksibilitas dalam pengaturan lokasi dan waktu bekerja."
     },
     {
         id: "g",

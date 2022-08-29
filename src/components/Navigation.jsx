@@ -95,15 +95,16 @@ const Navigation = () => {
                             </NavLink>
                         </div>
                         <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
-                            <NavLink to="/survei">
-                                Survei
-                            </NavLink>
-                        </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
                             <NavLink to="artikel">
                                 Artikel
                             </NavLink>
                         </div>
+                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                            <NavLink to="/survei">
+                                Survei
+                            </NavLink>
+                        </div>
+
                     </div>
                 </div>
                 <div className="hidden lg:block">

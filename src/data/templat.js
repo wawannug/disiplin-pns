@@ -7,7 +7,7 @@ export const templat = [
     {
         id: 2,
         judul: "Berita Acara Pemeriksaan",
-        link: "https://docs.google.com/document/d/1Qx9pmqoaSjtWcqmX_QGguoALrZJnC0gb/edit?usp=sharing&ouid=102291095135085919217&rtpof=true&sd=true",
+        link: "https://docs.google.com/document/d/11nqyPluMkOJSKtIgQ0XHf3HrGsR4kcXu/edit?usp=sharing&ouid=102291095135085919217&rtpof=true&sd=true",
     },
     {
         id: 3,
@@ -69,7 +69,7 @@ export const templat = [
     }, {
         id: 16,
         judul: "Surat Panggilan Untuk Menerima Keputusan Hukuman Disiplin",
-        link: "https://docs.google.com/document/d/1zr13p1jEPRhmup5Pzo0SJa8riDGsSdD4/edit?usp=sharing&ouid=102291095135085919217&rtpof=true&sd=true"
+        link: "https://docs.google.com/document/d/157JVVFgLum13ztSPauuW0_ZmJPMZxEkv/edit?usp=sharing&ouid=102291095135085919217&rtpof=true&sd=true"
     },
 
 

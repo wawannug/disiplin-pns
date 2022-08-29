@@ -19,10 +19,10 @@ export const berlaku = [
         bagian: "Pendokumentasian Keputusan Hukuman Disiplin",
         konten: [
             {
-                uraian: "Keputusan Hukuman Dlsiplin harus didokumentasikan oleh pejabat pengelola kepegawaian di instansi yang bersangkutan.",
+                uraian: "Keputusan Hukuman Disiplin harus didokumentasikan oleh pejabat pengelola kepegawaian di instansi yang bersangkutan.",
             },
             {
-                uraian: "Dokumen keputusan Hukuman Disiplin sebagaimana dimaksud pada ayat (1) digunakan sebagai salah satu bahan penilaian dalam pembinaan PNS yang bersangkutan.",
+                uraian: "Dokumen keputusan Hukuman Disiplin digunakan sebagai salah satu bahan penilaian dalam pembinaan PNS yang bersangkutan.",
             },
             {
                 uraian: "Pendokumentasian keputusan Hukuman Disiplin termasuk dokumen dalam pemeriksaan diunggah ke dalam sistem yang terintegrasi dengan Sistem Informasi Aparatur Sipil Negara",

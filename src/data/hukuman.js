@@ -37,7 +37,7 @@ export const hukuman = [
         kewajibanLain: [
             {
                 id: 'a',
-                wajib: 'mengutamakan kepentingan negara daripada kepentingan pribadi, seseorang, dan/ atau golongan',
+                wajib: 'mengutamakan kepentingan negara daripada kepentingan pribadi, seseorang, dan/atau golongan',
                 dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
             {
@@ -45,7 +45,7 @@ export const hukuman = [
                 wajib: 'Masuk Kerja dan menaati ketentuan jam kerja',
                 dampak: 'berdampak pada Unit Kerja',
                 rincian: [
-                    'teguran lisan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 3 (tiga)hari kerja dalam 1 (satu) tahun;',
+                    'teguran lisan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 3 (tiga) hari kerja dalam 1 (satu) tahun;',
                     'teguran tertulis bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 4 (empat) sampai dengan 6 (enam) hari kerja dalam 1 (satu) tahun; dan',
                     'pernyataan tidak puas secara tertulis bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 7 (tujuh) sampai dengan 10 (sepuluh) hari kerja dalam 1 (satu) tahun.'
                 ],
@@ -58,13 +58,13 @@ export const hukuman = [
             {
                 id: 'd',
                 wajib: 'memberikan kesempatan kepada bawahan untuk mengembangkan kompetensi',
-                dampak: 'pabila pelanggaran berdampak negatif pada Unit Kerja',
+                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
         ],
         larangan: [
             {
                 id: 'a',
-                larangan: 'memiliki, menjual, membeli, menggadaikan, menyewakan, atau meminjamkan barang baik bergerak atau tidak bergerak, dokurnen, atau surat berharga milik negara secara tidak sah',
+                larangan: 'memiliki, menjual, membeli, menggadaikan, menyewakan, atau meminjamkan barang baik bergerak atau tidak bergerak, dokumen, atau surat berharga milik negara secara tidak sah',
                 dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja',
             },
             {
@@ -95,37 +95,37 @@ export const hukuman = [
             {
                 id: 'a',
                 wajib: 'menjaga persatuan dan kesatuan bangsa',
-                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja dan/atau instansi yang bersangkutan;',
+                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja dan/atau instansi yang bersangkutan',
             },
             {
                 id: 'b',
                 wajib: 'melaksanakan kebijakan yang ditetapkan oleh pejabat pemerintah yang berwenang',
-                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan;',
+                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan',
             },
             {
                 id: 'c',
                 wajib: 'menaati ketentuan peraturan perundang-undangan',
-                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan;',
+                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan',
             },
             {
                 id: 'd',
                 wajib: 'melaksanakan tugas kedinasan dengan penuh pengabdian, kejujuran, kesadaran, dan tanggung jawab ',
-                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan; ',
+                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan',
             },
             {
                 id: 'e',
                 wajib: 'menunjukkan integritas dan keteladanan dalam sikap, perilaku, ucapan, dan tindakan kepada setiap orang, baik di dalam maupun di luar kedinasan',
-                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan;',
+                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan',
             },
             {
                 id: 'f',
                 wajib: 'menyimpan rahasia jabatan dan hanya dapat mengemukakan rahasia jabatan sesuai dengan ketentuan peraturan perundang-undangan',
-                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan; ',
+                dampak: 'apabila pelanggaran berdampak negatif pada instansi yang bersangkutan ',
             },
             {
                 id: 'g',
                 wajib: 'bersedia ditempatkan di seluruh wilayah Negara Kesatuan Republik Indonesia',
-                dampak: ' apabila pelanggaran berdampak negatif pada instansi yang bersangkutan.',
+                dampak: ' apabila pelanggaran berdampak negatif pada instansi yang bersangkutan',
             },
         ],
         kewajibanLain: [
@@ -160,7 +160,7 @@ export const hukuman = [
                 dampak: '',
                 rincian: [
                     'pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 6 (enam) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 11 (sebelas) sampai dengan 13 (tiga belas) hari kerja dalam 1 (satu) tahun',
-                    'pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 9(sembilan) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 14(empat belas) sampai dengan 16 { enam belas) hari kerja dalam 1(satu) tahun; ',
+                    'pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 9(sembilan) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 14(empat belas) sampai dengan 16 (enam belas) hari kerja dalam 1(satu) tahun; ',
                     'pemotongan tunjangan kinerja sebesar 25% (dua puluh lima persen) selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 17 (tujuh belas) sampai dengan 20 (dua puluh) hari kerja dalam 1 (satu) tahun',
                 ],
             },
@@ -224,7 +224,7 @@ export const hukuman = [
             {
                 id: 'a',
                 wajib: 'setia dan taat sepenuhnya kepada Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Pemerintah ',
-                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja, instansi, dan/ atau negara',
+                dampak: 'apabila pelanggaran berdampak negatif pada Unit Kerja, instansi, dan/atau negara',
             },
             {
                 id: 'b',
@@ -265,13 +265,13 @@ export const hukuman = [
         kewajibanLain: [
             {
                 id: 'a',
-                wajib: 'mengutamakan kepen tingan negara daripada kepentingan pribadi, seseorang, dan/atau golongan',
-                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
+                wajib: 'mengutamakan kepentingan negara daripada kepentingan pribadi, seseorang, dan/atau golongan',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/atau pemerintah',
             },
             {
                 id: 'b',
                 wajib: 'melaporkan dengan segera kepada atasannya apabila mengetahui ada hal yang dapat membahayakan keamanan negara atau merugikan keuangan negara',
-                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/atau pemerintah',
             },
             {
                 id: 'c',
@@ -284,9 +284,9 @@ export const hukuman = [
                 dampak: '',
                 rincian: [
                     'penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 21 (dua puluh satu) sampai dengan 24 (dua puluh empat) hari kerja dalam 1 (satu) tahun; <br />',
-                    'pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 25 (dua puluh lima) sampai dengan 27 (dua puluh tujuh) hari kerja dalam 1 (satu) tahun <br />;',
-                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 28 (dua puluh delapan) hari kerja atau lebih dalam 1 (satu) tahun;  <br />',
-                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secaraterus menerus selama 10 (sepuluh) hari kerja;'
+                    'pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 25 (dua puluh lima) sampai dengan 27 (dua puluh tujuh) hari kerja dalam 1 (satu) tahun; <br />',
+                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secara kumulatif selama 28 (dua puluh delapan) hari kerja atau lebih dalam 1 (satu) tahun; dan  <br />',
+                    'pemberhentian dengan hormat tidak atas permintaan sendiri sebagai PNS bagi PNS yang tidak Masuk Kerja tanpa alasan yang sah secaraterus menerus selama 10 (sepuluh) hari kerja.'
                 ]
             },
             {
@@ -319,16 +319,16 @@ export const hukuman = [
             {
                 id: 'e',
                 larangan: 'memiliki, menjual, membeli, menggadaikan, menyewakan, atau meminjamkan barang baik bergerak atau tidak bergerak, dokumen, atau surat berharga milik negara secara tidak sah ',
-                dampak: 'apabila pelanggaran berdampak negatif pada negara clan/ atau pemerintah',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
             },
             {
                 id: 'f',
                 larangan: 'melakukan pungutan di luar ketentuan ',
-                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/ atau pemerintah',
+                dampak: 'apabila pelanggaran berdampak negatif pada negara dan/atau pemerintah',
             },
             {
                 id: 'g',
-                larangan: 'menenma hadiah yang berhubungan dengan jabatan dan/atau pekerjaan ',
+                larangan: 'menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaan ',
                 dampak: '',
             },
             {
@@ -340,8 +340,14 @@ export const hukuman = [
                 id: 'i',
                 larangan: 'memberikan dukungan kepada calon Presiden/Wakil Presiden, calon Kepala Daerah/Wakil Kepala Daerah, calon anggota Dewan Perwakilan Rakyat, calon anggota Dewan Perwakilan Daerah, atau calon anggota Dewan Perwakilan Rakyat Daerah',
                 dampak: '',
-                rincian: 'dengan cara : 1. sebagai peserta kampanye dengan mengerahkan PNS lain; 2. sebagai peserta kampanye dengan menggunakan fasilitas negara; 3. membuat keputusan dan/atau tindakan yang menguntungkan atau merugikan salah satu pasangan calon sebelum, selama, dan sesudah masa kampanye; 4. mengadakan kegiatan yang mengarah kepada keberpihakan terhadap pasangan calon yang menjadi peserta pemilu sebelum, selama, dan sesudah masa kampanye meliputi pertemuan, ajakan, himbauan, seruan, atau pemberian barang kepada PNS dalam lingkungan unit kerjanya, anggota keluarga, dan masyarakat; dan/atau 5. memberikan surat dukungan disertai fotokopi KartuTanda Penduduk atau Surat Keterangan Tanda Penduduk.',
-
+                rincian: 'dengan cara: ',
+                uraian: [
+                    "1. sebagai peserta kampanye dengan mengerahkan PNS lain;",
+                    "2. sebagai peserta kampanye dengan menggunakan fasilitas negara;",
+                    "3. membuat keputusan dan/atau tindakan yang menguntungkan atau merugikan salah satu pasangan calon sebelum, selama, dan sesudah masa kampanye; ",
+                    "4. mengadakan kegiatan yang mengarah kepada keberpihakan terhadap pasangan calon yang menjadi peserta pemilu sebelum, selama, dan sesudah masa kampanye meliputi pertemuan, ajakan, himbauan, seruan, atau pemberian barang kepada PNS dalam lingkungan unit kerjanya, anggota keluarga, dan masyarakat; dan/atau",
+                    "5. memberikan surat dukungan disertai fotokopi KartuTanda Penduduk atau Surat Keterangan Tanda Penduduk."
+                ]
             },
         ]
     },

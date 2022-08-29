@@ -214,7 +214,7 @@ export const kuis = [
                 correct: true,
             },
             {
-                text: "Atasan langsung dan pejabat lain yang ditunjuk",
+                text: "Unsur kepegawaian dan pejabat lain yang ditunjuk",
                 correct: false,
             },
         ]

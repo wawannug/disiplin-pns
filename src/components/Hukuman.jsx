@@ -59,7 +59,7 @@ function Hukuman() {
                         <thead>
                             <tr>
                                 <th className='border border-black dark:border-white p-2'>No</th>
-                                <th className='text-justify borde border-black dark:border-whiter p-2'>Kewajiban yang dilanggar</th>
+                                <th className='border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
                                 <th className='text-justify border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
@@ -72,7 +72,7 @@ function Hukuman() {
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
-                                                    isi.rincian.map((detil) => <div className="text-justify p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
+                                                    isi.rincian.map((detil) => <div className="my-1 text-justify p-2 outline outline-1 outline-black dark:outline-white" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
@@ -99,7 +99,6 @@ function Hukuman() {
                                         <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
-                                                <div className="text-justify">{isi.rincian && isi.rincian}<br /></div>
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
@@ -152,7 +151,7 @@ function Hukuman() {
                         <thead>
                             <tr>
                                 <th className='border border-black dark:border-white p-2'>No</th>
-                                <th className='text-justify border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
+                                <th className=' border border-black dark:border-white p-2'>Kewajiban yang dilanggar</th>
                                 <th className='text-justify border border-black dark:border-white p-2'>Keterangan</th>
                             </tr>
                         </thead>
@@ -165,7 +164,7 @@ function Hukuman() {
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
-                                                    isi.rincian.map((detil) => <div className="p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
+                                                    isi.rincian.map((detil) => <div className="my-1 p-2 outline outline-1 outline-black dark:outline-white" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
@@ -192,7 +191,6 @@ function Hukuman() {
                                         <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
-                                                <div>{isi.rincian && isi.rincian}<br /></div>
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
@@ -245,7 +243,7 @@ function Hukuman() {
                         <thead>
                             <tr>
                                 <th className='border border-black dark:border-white p-2'>No</th>
-                                <th className='text-justify border border-black dark:border-white  p-2'>Kewajiban yang dilanggar</th>
+                                <th className='border border-black dark:border-white  p-2'>Kewajiban yang dilanggar</th>
                                 <th className='text-justify border border-black dark:border-white  p-2'>Keterangan</th>
                             </tr>
                         </thead>
@@ -258,7 +256,7 @@ function Hukuman() {
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.wajib}</summary>
                                                 {isi.rincian &&
-                                                    isi.rincian.map((detil) => <div className="p-2 outline outline-1 outline-slate-300" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
+                                                    isi.rincian.map((detil) => <div className="my-1 p-2 outline outline-1 outline-black dark:outline-white" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>
@@ -285,7 +283,9 @@ function Hukuman() {
                                         <td className='border border-black dark:border-white p-2'>
                                             <details >
                                                 <summary className={`text-justify list-none ${isi.rincian ? "cursor-pointer" : ""}`}>{isi.larangan}</summary>
-                                                {isi.rincian && <div> {isi.rincian}</div>}
+                                                {isi.rincian}
+                                                {isi.uraian &&
+                                                    isi.uraian.map((detil) => <div className="my-1 text-justify p-2 outline outline-1 outline-black dark:outline-white" dangerouslySetInnerHTML={{ __html: detil }}></div>)}
                                             </details>
                                         </td>
                                         <td className='text-justify border border-black dark:border-white p-2'>{isi.dampak}</td>

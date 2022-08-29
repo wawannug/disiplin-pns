@@ -61,7 +61,7 @@ export default function Trivia({
     };
     return (
         <div className="flex  flex-col items-center justify-around ">
-            <div className="w-full md:w-4/5 bg-gradient-to-b from-[#100240] to-black text-center p-5 rounded-2xl border-2 text-sm md:text-lg ">{question?.question}</div>
+            <div className="w-full md:w-4/5 bg-gradient-to-b from-[#100240] to-black  text-justify p-5 rounded-2xl border-2 text-sm md:text-lg">{question?.question}</div>
             <div className="answers">
                 {question?.answers.map((a) => (
                     <div

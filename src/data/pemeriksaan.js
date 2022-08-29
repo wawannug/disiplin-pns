@@ -146,11 +146,11 @@ export const pemeriksaan = [
         bagian: "Hukuman Disiplin oleh Pejabat yang Berwenang Menghukum",
         konten: [
             {
-                uraian: "Berdasarkan basil pemeriksaan Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
+                uraian: "Berdasarkan hasil pemeriksaan Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
                 keterangan: "",
             },
             {
-                uraian: "Berdasarkan basil pemeriksaan Pejabat yang Berwenang Menghukum menjatuhkan Hukuman Disiplin.",
+                uraian: "Dalam keputusan Hukuman Disiplin harus disebutkan Pelanggaran Disiplin yang dilakukan oleh PNSyang bersangkutan.",
                 keterangan: "",
             },
         ],

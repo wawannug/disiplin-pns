@@ -46,7 +46,7 @@ export const larangan = [
         larangan: "melakukan pungutan di luar ketentuan",
         uraian: [],
         ikon: "larangan-g-pungutan",
-        penjelasan: "Yang dimaksud dengan \"pungutan di luar ketentuan\" adalah pengenaan biaya yang tidak seharusnya dikenakan atau penyalahgunaan wewenang untuk mendapatkan uang, barang, atau bentuk lain untuk kepentingan pribadi atau pihak lain baik dilakukan secara sendiri-sendiri atau bersamasama."
+        penjelasan: "Yang dimaksud dengan \"pungutan di luar ketentuan\" adalah pengenaan biaya yang tidak seharusnya dikenakan atau penyalahgunaan wewenang untuk mendapatkan uang, barang, atau bentuk lain untuk kepentingan pribadi atau pihak lain baik dilakukan secara sendiri-sendiri atau bersama-sama."
     },
     {
         id: "h",
@@ -81,7 +81,7 @@ export const larangan = [
         larangan: "meminta sesuatu yang berhubungan dengan jabatan",
         uraian: [],
         ikon: "larangan-l-menerima",
-        penjelasan: "Yang dimaksud dengan \"menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaan\" termasuk menerima hadiah, padahal diketahui dan patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya"
+        penjelasan: "Cukup jelas"
     },
     {
         id: "m",
@@ -97,22 +97,22 @@ export const larangan = [
             [
                 {
                     id: 1,
-                    poin: "Ikut kampanye",
+                    poin: "ikut kampanye",
                     detil: "PNS sebagai peserta kampanye hadir untuk mendengar, menyimak visi, misi, dan program yang ditawarkan peserta pemilu, tanpa menggunakan atribut partai atau atribut PNS."
                 },
                 {
                     id: 2,
-                    poin: "Menjadi peserta kampanye dengan menggunakan atribut partai atau atribut PNS",
-                    detil: "Yang dimaksud dengan \"menggunakan atribut partai\" adalah dengan menggunakan dan/atau memanfaatkan pakaian, kendaraan, atau media lain yang bergambar partai politik, calon Presiden/Wakil Presiden, calon Kepala Daerah/Wakil Kepala Daerah, calon anggota Dewan Perwakilan Rakyat, calon anggota Dewan Perwakilan Daerah, calon anggota Dewan Perwakilan Rakyat Daerah dalam masa kampanye.Yang dimaksud \"menggunakan atribut PNS\" adalah menggunakan seragam Korpri, seragam dinas, kendaraan dinas, dan lain-lain."
+                    poin: "menjadi peserta kampanye dengan menggunakan atribut partai atau atribut PNS",
+                    detil: "Yang dimaksud dengan \"menggunakan atribut partai\" adalah dengan menggunakan dan/atau memanfaatkan pakaian, kendaraan, atau media lain yang bergambar partai politik, calon Presiden/Wakil Presiden, calon Kepala Daerah/Wakil Kepala Daerah, calon anggota Dewan Perwakilan Rakyat, calon anggota Dewan Perwakilan Daerah, calon anggota Dewan Perwakilan Rakyat Daerah dalam masa kampanye. Yang dimaksud \"menggunakan atribut PNS\" adalah menggunakan seragam Korpri, seragam dinas, kendaraan dinas, dan lain-lain."
                 },
                 {
                     id: 3,
-                    poin: "Sebagai peserta kampanye dengan mengerahkan PNS lain",
+                    poin: "sebagai peserta kampanye dengan mengerahkan PNS lain",
                     detil: "Yang dimaksud dengan \"peserta kampanye\" adalah PNS bertindak sebagai pelaksana kampanye, petugas kampanye/tim sukses, tenaga ahli, penyandang dana, pencari dana, dan lain-lain."
                 },
                 {
                     id: 4,
-                    poin: "Sebagai peserta kampanye dengan menggunakan fasilitas negara"
+                    poin: "sebagai peserta kampanye dengan menggunakan fasilitas negara"
                 },
                 {
                     id: 5,

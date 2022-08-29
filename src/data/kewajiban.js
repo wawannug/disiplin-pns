@@ -3,7 +3,7 @@ export const kewajiban = [
         id: "a",
         kewajiban: "setia dan taat sepenuhnya kepada Pancasila, Undang Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Pemerintah",
         ikon: "Kewajibansetia",
-        penjelasan: "Yang dimaksud dengan \"setia dan taat sepenuhnya kepada Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Pemerintah\" adalah setiap PNS di samping taat juga berkewajiban melaksanakan ketentuan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, kebijakan negara dan Pemerintah serta tidak menentang Pancasila, dan UndangUndang Dasar Negara Republik Indonesia Tahun 1945.",
+        penjelasan: "Yang dimaksud dengan \"setia dan taat sepenuhnya kepada Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Pemerintah\" adalah setiap PNS di samping taat juga berkewajiban melaksanakan ketentuan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, kebijakan negara dan Pemerintah serta tidak menentang Pancasila, dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
         poinpenjelasan: []
     },
     {
@@ -24,14 +24,14 @@ export const kewajiban = [
         id: "d",
         kewajiban: "menaati ketentuan peraturan perundang-undangan",
         ikon: "Kewajibanperaturan",
-        penjelasan: "Yang dimaksud dengan \"peraturan perundang-undangan\" adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam peraturan perundangundangan.",
+        penjelasan: "Yang dimaksud dengan \"peraturan perundang-undangan\" adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam peraturan perundang-undangan.",
         poinpenjelasan: []
     },
     {
         id: "e",
         kewajiban: "melaksanakan tugas kedinasan dengan penuh pengabdian, kejujuran, kesadaran, dan tanggung jawab",
         ikon: "Kewajibantugas",
-        penjelasan: "Yang dimaksud dengan \"tugas kedinasan\" adalah tugas yang diberikan oleh atasan yang berwenang.",
+        penjelasan: "Yang dimaksud dengan \"tugas kedinasan\" adalah tugas yang diberikan oleh atasan yang berwenang sesuai dengan:",
         poinpenjelasan: ["a.perintah kedinasan;", "b.peraturan perundang-undangan di bidang kepegawaian atau peraturan yang berkaitan dengan kepegawaian; dan", "c.peraturan kedinasan."]
     },
     {
