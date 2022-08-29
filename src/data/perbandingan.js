@@ -3,7 +3,7 @@ export const perbandingan = [
         id: 0,
         perbedaan: "Pengertian mengenai masuk kerja",
         peraturan53: "Yang dimaksud dengan kewajiban untuk “masuk kerja dan menaati ketentuan jam kerja” adalah setiap PNS wajib datang, melaksanakan tugas, dan pulang sesuai ketentuan jam kerja serta tidak berada di tempat umum bukan karena dinas. Apabila berhalangan hadir wajib memberitahukan kepada pejabat yang berwenang",
-        peraturan94: "Yang dimaksud dengan \"Masuk Kerja clan menaati ketentuan jam kerja\" adalah kewajiban melaksanakan tugas sesuai dengan ketentuan sistem kerja yang dapat dilaksanakan melalui fleksibilitas dalam pengaturan lokasi dan waktu bekerja.",
+        peraturan94: "Yang dimaksud dengan \"Masuk Kerja dan menaati ketentuan jam kerja\" adalah kewajiban melaksanakan tugas sesuai dengan ketentuan sistem kerja yang dapat dilaksanakan melalui fleksibilitas dalam pengaturan lokasi dan waktu bekerja.",
     },
     {
         id: 1,
