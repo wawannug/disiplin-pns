@@ -6,9 +6,9 @@ const Peraturan = () => {
 
 
     return (
-        <div className="mt-20 w-full lg:h-screen flex flex-col lg:flex-row justify-center items-center lg:justify-evenly bg-[#a1c950] dark:bg-[#0f172a]">
+        <div className="mt-20 w-full lg:h-screen flex flex-col lg:flex-row justify-center items-center lg:justify-evenly bg-[#5A8020] dark:bg-[#0f172a]">
             <Slide direction="left">
-                <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
+                <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum text-white">
                     PERATURAN TERKAIT
                 </div>
             </Slide>

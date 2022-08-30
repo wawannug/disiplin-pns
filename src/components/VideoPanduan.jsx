@@ -3,7 +3,7 @@ import { Slide } from 'react-awesome-reveal'
 
 const VideoPanduan = () => {
     return (
-        <div className=" bg-[#a1c950] dark:bg-[#0f172a] w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-evenly dark:text-white">
+        <div className=" bg-[#5A8020] dark:bg-[#0f172a] w-full font-Montserrat-Regular lg:h-screen flex flex-col justify-evenly text-white">
             <Slide direction="down">
                 <div className=" mt-16 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                     PANDUAN SITUS WEB

@@ -5,6 +5,7 @@ import Peraturan from '../components/Peraturan'
 import KomponenArtikel from '../components/KomponenArtikel'
 import ChatBotHelper from './ChatbotHelper'
 import VideoPanduan from '../components/VideoPanduan'
+import SitusLain from '../components/SitusLain'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Peraturan />
             <KomponenArtikel />
             <VideoPanduan />
+            <SitusLain />
             <ChatBotHelper />
         </div>
     )
