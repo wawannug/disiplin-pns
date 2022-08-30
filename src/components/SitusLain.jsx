@@ -20,7 +20,7 @@ const SitusLain = () => {
                         <a href="http://sites.google.com/view/ziwbksekretariatdjkn/"
                             target="_blank"
                             rel="noreferrer" >
-                            <img src="https://drive.google.com/uc?export=view&id=1rsO0A2726xHUsWrSrVgHdHmDsNKWm9b1" alt="zona integritas wbk" />
+                            <img src="https://drive.google.com/uc?export=view&id=1pgBwtPhmx7RGtFRRZ-46bRFc1MpfNPD-" alt="zona integritas wbk" />
                         </a>
                     </div>
                 </div>
