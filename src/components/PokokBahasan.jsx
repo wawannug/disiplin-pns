@@ -15,7 +15,7 @@ const PokokBahasan = () => {
                 className=" justify-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 m-4 lg:m-6 gap-4 lg:gap-6">
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/kewajiban') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 77.695 72">
@@ -28,14 +28,14 @@ const PokokBahasan = () => {
                             </svg>
                             {/* <img src={Kewajiban} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] dark:outline-white m-2 flex items-center justify-center text-center">
                             Kewajiban
                         </div>
                     </div>
                 </Zoom>
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/larangan') }}>
                         <div className="flex justify-center ">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
@@ -46,14 +46,14 @@ const PokokBahasan = () => {
                             </svg>
                             {/* <img src={Larangan} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2  flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] dark:outline-white m-2  flex items-center justify-center text-center">
                             Larangan
                         </div>
                     </div>
                 </Zoom>
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/hukuman') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -81,14 +81,14 @@ const PokokBahasan = () => {
                             </svg>
                             {/* <img src={Hukuman} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] dark:outline-white m-2 flex items-center justify-center text-center">
                             Tingkat dan Jenis Hukuman
                         </div>
                     </div>
                 </Zoom>
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/pejabat') }}>
                         <div className="flex justify-center">
                             <svg
@@ -100,14 +100,14 @@ const PokokBahasan = () => {
                             </svg>
                             {/* <img src={Pejabat} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] m-2 flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 h-20 outline-[#607D25] dark:outline-white m-2 flex items-center justify-center text-center">
                             <p>Pejabat yang Berwenang Menghukum</p>
                         </div>
                     </div>
                 </Zoom>
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/pemeriksaan') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
@@ -115,20 +115,20 @@ const PokokBahasan = () => {
                             </svg>
                             {/* <img src={TataCara} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 outline-[#607D25] dark:outline-white m-2 h-20 flex items-center justify-center text-center">
                             <p>Tata Cara Pemeriksaan</p>
                         </div>
                     </div>
                 </Zoom>
                 <Zoom>
                     <div
-                        className="bg-[#E0E04F] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] cursor-pointer hover:scale-110 duration-500"
+                        className="bg-[#E6D147] min-h-full dark:bg-[#0f172a] outline outline-[#607D25] dark:outline-white cursor-pointer hover:scale-110 duration-500"
                         onClick={() => { navigate('/berlaku') }}>
                         <div className="flex justify-center">
                             <svg className="w-2/3 h-32 my-4 fill-current dark:text-white" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M640 170.666667H256v682.666666h512V298.666667h-128V170.666667zM256 85.333333h426.666667l170.666666 170.666667v597.333333a85.333333 85.333333 0 0 1-85.333333 85.333334H256a85.333333 85.333333 0 0 1-85.333333-85.333334V170.666667a85.333333 85.333333 0 0 1 85.333333-85.333334z m85.333333 384h341.333334v85.333334H341.333333v-85.333334z m0 170.666667h341.333334v85.333333H341.333333v-85.333333z" /></svg>
                             {/* <img src={Dokumentasi} className="h-32 my-4" /> */}
                         </div>
-                        <div className="mt-4 outline outline-1 outline-[#607D25] m-2 h-20 flex items-center justify-center text-center">
+                        <div className="mt-4 outline outline-1 outline-[#607D25] dark:outline-white m-2 h-20 flex items-center justify-center text-center">
                             <p>Berlakunya Hukuman Disiplin</p>
                         </div>
                     </div>

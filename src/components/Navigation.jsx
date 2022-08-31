@@ -8,14 +8,14 @@ const Navigation = () => {
     const [navbar, setNavbar] = useState(false)
 
     return (
-        <nav className="w-full bg-[#a1c950] border-solid border-white dark:bg-[#1C2C50] duration-300 p-2 fixed top-0 z-10 font-bold shadow-md shadow-[#718d38] dark:shadow-none" >
+        <nav className="w-full bg-[#02275c] border-solid border-white dark:bg-[#02275c] duration-300 p-2 fixed top-0 z-10 font-bold shadow-md shadow-[#02193a] dark:shadow-none text-white" >
             {/* Bungkus/Wrap logo dan link */}
             <div className="justify-between lg:flex">
                 {/* Mode Mobile */}
                 <div className="flex justify-between items-center h-12">
-                    <div className="dark:text-white">
+                    <div className="">
                         <Link to="/">
-                            <img alt="logo" src={Logo} className="h-8 bg-lime-200 dark:bg-[#1C2C50] shadow-xl  rounded p-1 " />
+                            <img alt="logo" src={Logo} className="h-8 bg-[#193d70] dark:bg-[#1C2C50] shadow-xl  rounded p-1 " />
                         </Link>
                     </div>
                     <div className="flex">
@@ -33,7 +33,7 @@ const Navigation = () => {
                                 {navbar ? (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 fill-current text-gray-500 dark:text-gray-400"
+                                        className="w-6 h-6 fill-current text-white"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                     >
@@ -47,7 +47,7 @@ const Navigation = () => {
                                 ) : (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 fill-current text-gray-500 dark:text-gray-400"
+                                        className="w-6 h-6 fill-current text-white "
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
                                         strokeWidth={2}
@@ -69,42 +69,41 @@ const Navigation = () => {
                         className={`lg:items-center lg:flex gap-5 dark:text-white  ${navbar ? "block" : "hidden"}`}
                         onClick={() => { setNavbar(!navbar) }}
                     >
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/">
                                 Beranda
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/bahasan">
                                 Pokok Bahasan
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/peraturan">
                                 Peraturan Terkait
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/kuis">
                                 Kuis
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/templat">
                                 Templat Surat
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="artikel">
                                 Artikel
                             </NavLink>
                         </div>
-                        <div className="h-9 lg:h-full hover:bg-[#D4FF80] hover:p-1 rounded-xl">
+                        <div className="h-9 lg:h-full hover:bg-[#4d91eb] hover:p-1 rounded-xl">
                             <NavLink to="/survei">
                                 Survei
                             </NavLink>
                         </div>
-
                     </div>
                 </div>
                 <div className="hidden lg:block">

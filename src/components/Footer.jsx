@@ -6,9 +6,9 @@ import { FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <div className="flex  flex-col gap-6 lg:flex-row justify-between p-4 bg-[#a1c950] dark:bg-[#1C2C50] text-md dark:text-white dark:shadow-none shadow-[20px_20px_30px_15px_rgba(0,0,0,0,0,)] shadow-[#718d38]">
+        <div className="flex  flex-col gap-6 lg:flex-row justify-between p-4 bg-[#02275c] dark:bg-[#02275c] text-md text-white dark:shadow-none shadow-[20px_20px_30px_15px_rgba(0,0,0,0,0,)] shadow-[#718d38]">
             <div className="mx-2">
-                <div className='font-bold'>
+                <div className='font-bold '>
                     Alamat Sekretariat DJKN
                 </div>
                 <div>
@@ -25,27 +25,27 @@ const Footer = () => {
                 <div className='font-bold'>
                     Saluran Pengaduan DJKN
                 </div>
-                <div className="flex ">
-                    <span className="w-32">Halo DJKN</span>
-                    <span className="">: 150-991 / halodjkn.kemenkeu.go.id</span>
+                <div className="flex my-1 flex-col md:flex-row">
+                    <span className="w-32 font-bold">Halo DJKN</span>
+                    <span className="">150-991 / halodjkn.kemenkeu.go.id</span>
                 </div>
-                <div className="flex ">
-                    <span className="w-32">Email</span>
-                    <span className="">: pengaduan.djkn@kemenkeu.go.id</span>
+                <div className="flex my-1 flex-col md:flex-row">
+                    <span className="w-32 font-bold">Email</span>
+                    <span className="">pengaduan.djkn@kemenkeu.go.id</span>
                 </div>
-                <div className="flex ">
-                    <span className="w-32">Wise Kemenkeu</span>
-                    <span className="">: www.wise.kemenkeu.go.id</span>
+                <div className="flex my-1 flex-col md:flex-row">
+                    <span className="w-32 font-bold">Wise Kemenkeu</span>
+                    <span className="">www.wise.kemenkeu.go.id</span>
                 </div>
 
-                <div className="flex ">
-                    <span className="w-32">SP4N-LAPOR</span>
-                    <span className="">: www.lapor.go.id</span>
+                <div className="flex my-1 flex-col md:flex-row ">
+                    <span className="w-32 font-bold">SP4N-LAPOR</span>
+                    <span className="">www.lapor.go.id</span>
                 </div>
 
             </div>
             <div className="mx-2 ">
-                <div className='font-bold'>
+                <div className='font-bold '>
                     Sosial Media Sekretariat DJKN
                 </div>
                 <div className="flex gap-6 mt-2 ">
