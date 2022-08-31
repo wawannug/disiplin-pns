@@ -8,24 +8,31 @@ const SitusLain = () => {
                 <div className=" mt-16 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                     SITUS WEB TERKAIT
                 </div>
-                <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 w-5/6 mx-auto">
-                    <div className=" outline outline-black outline-1 basis-1/3 hover:scale-110 duration-300 hover:rounded-2xl">
+            </Slide>
+
+            <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 w-5/6 mx-auto">
+                <div className="shadow-xl shadow-slate-300 dark:shadow-none basis-1/3">
+                    <Slide direction="left">
+
                         <a href="https://sites.google.com/view/upgeselon1djkn/"
                             target="_blank"
                             rel="noreferrer" >
-                            <img src="https://drive.google.com/uc?export=view&id=15gmtn66syNTYrzH6Ulu_Gak4qmJPbGds" alt="informasi pengaduan gratifikasi" />
+                            <img className="hover:scale-110 duration-300 hover:rounded-2xl" src="https://drive.google.com/uc?export=view&id=15gmtn66syNTYrzH6Ulu_Gak4qmJPbGds" alt="informasi pengaduan gratifikasi" />
                         </a>
-                    </div>
-                    <div className="outline outline-black outline-1 basis-1/3 hover:scale-110 duration-300 hover:rounded-2xl">
+                    </Slide>
+                </div>
+                <div className="shadow-xl shadow-slate-300 dark:shadow-none basis-1/3">
+                    <Slide direction="right">
                         <a href="http://sites.google.com/view/ziwbksekretariatdjkn/"
                             target="_blank"
                             rel="noreferrer" >
-                            <img src="https://drive.google.com/uc?export=view&id=1pgBwtPhmx7RGtFRRZ-46bRFc1MpfNPD-" alt="zona integritas wbk" />
+                            <img className='hover:scale-110 duration-300 hover:rounded-2xl' src="https://drive.google.com/uc?export=view&id=1pgBwtPhmx7RGtFRRZ-46bRFc1MpfNPD-" alt="zona integritas wbk" />
                         </a>
-                    </div>
+                    </Slide>
                 </div>
-            </Slide>
-        </div>
+            </div>
+
+        </div >
     )
 }
 
