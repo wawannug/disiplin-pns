@@ -105,8 +105,6 @@ export const pejabat = [
             {
                 penjelasan: "Pejabat Pengawas atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi:",
                 pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan;",
-                pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan dan sedang; dan",
-                pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin ringan."
             },
             {
                 penjelasan: "Dalam hal tidak terdapat jabatan pengawas pada unit kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Muda tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan.",
