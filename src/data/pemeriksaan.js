@@ -160,7 +160,7 @@ export const pemeriksaan = [
         bagian: "Hasil Pemeriksaan unsur pengawasan",
         konten: [
             {
-                uraian: "Hasil pemeriksaan unsur pengawasan dan/atau unit yang mempunyai tugas pengawasan dapat digunakan sebagai bahan untuk melakukan pemeriksaan dan/atau melengkapi pertimbangan untuk menjatuhkan Hukuman Disiplin terhadap PNS yang diduga melakukan Pelanggaran Disiplin.",
+                uraian: "Hasil pemeriksaan unsur pengawasan (Inspektorat Jenderal/Inspektorat Bidang Investigasi) dan/atau unit yang mempunyai tugas pengawasan dapat digunakan sebagai bahan untuk melakukan pemeriksaan dan/atau melengkapi pertimbangan untuk menjatuhkan Hukuman Disiplin terhadap PNS yang diduga melakukan Pelanggaran Disiplin.",
                 keterangan: "",
             },
         ],
