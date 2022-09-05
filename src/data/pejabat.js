@@ -28,12 +28,12 @@ export const pejabat = [
         jabatan: "Pejabat Pembina Kepegawaian",
         info: [
             {
-                penjelasan: "Pejabat Pembina Kepegawaian Instansi Pusat dan Pejabat Pembina Kepegawaian Instansi Daerah Provinsi menetapkan penjatuhan Hukuman Disiplin bagi Pejabat Pimpinan Tinggi Madya di lingkungannya untuk jenis Hukuman Disiplin ringan, sedang, dan berat yang terdiri atas penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan dan pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan;"
+                penjelasan: "Pejabat Pembina Kepegawaian Instansi Pusat dan Pejabat Pembina Kepegawaian Instansi Daerah Provinsi menetapkan penjatuhan Hukuman Disiplin bagi Pejabat Pimpinan Tinggi Madya di lingkungannya untuk jenis Hukuman Disiplin ringan, sedang, dan berat yang terdiri atas penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan dan pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan."
             },
             {
                 penjelasan: "Pejabat Pembina Kepegawaian Instansi Pusat dan Pejabat Pembina Kepegawaian Instansi Daerah Provinsi menetapkan penjatuhan Hukuman Disiplin bagi:",
                 pihak1: "Pejabat Pimpinan Tinggi Pratama di lingkungannya untuk jenis Hukuman Disiplin sedang dan berat;",
-                pihak2: "Pejabat Fungsional jenjang Ahli Utama untuk jenis Hukuman Disiplin ringan, sedang, dan berat yang terdiri atas penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan dan pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan; dan",
+                pihak2: "Pejabat Fungsional jenjang Ahli Utama untuk jenis Hukuman Disiplin ringan, sedang, dan berat yang terdiri atas penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan dan pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan;",
                 pihak3: "Pejabat Administrator ke bawah di lingkungannya untuk jenis Hukuman Disiplin berat; dan",
                 pihak4: "Pejabat Fungsional selain Pejabat Fungsional jenjang Ahli Utama di lingkungannya untuk jenis Hukuman Disiplin berat.",
             },
@@ -41,8 +41,8 @@ export const pejabat = [
                 penjelasan: "Pejabat Pembina Kepegawaian Instansi Daerah Kabupaten/Kota menetapkan penjatuhan Hukuman Disiplin bagi:",
                 pihak1: "Pejabat Pimpinan Tinggi Pratama di lingkungannya untuk jenis Hukuman Disiplin ringan, sedang, dan berat;",
                 pihak2: "Pejabat Fungsional jenjang Ahli Utama untuk jenis Hukuman Disiplin ringan, sedang, dan berat yang terdiri atas penurunan jabatan setingkat lebih rendah selama 12 (dua belas) bulan dan pembebasan dari jabatannya menjadi jabatan pelaksana selama 12 (dua belas) bulan;",
-                pihak3: "Pejabat Administrator ke bawah di lingkungannya untukjenis Hukuman Disiplin sedang dan berat; dan",
-                pihak4: "Pejabat Fungsional selain Pejabat Fungsional jenjang Ahli Utama di lingkungannya untuk jenis Hukuman Disiplin berat",
+                pihak3: "Pejabat Administrator ke bawah di lingkungannya untuk jenis Hukuman Disiplin sedang dan berat; dan",
+                pihak4: "Pejabat Fungsional selain Pejabat Fungsional jenjang Ahli Utama di lingkungannya untuk jenis Hukuman Disiplin berat.",
             }
         ],
     },
@@ -85,7 +85,7 @@ export const pejabat = [
         jabatan: "Pejabat Administrator atau pejabat lain yang setara",
         info: [
             {
-                penjelasan: "Pejabat Administrator atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi",
+                penjelasan: "Pejabat Administrator atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi:",
                 pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan;",
                 pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin sedang; dan",
                 pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin ringan dan sedang.",
@@ -104,15 +104,15 @@ export const pejabat = [
         info: [
             {
                 penjelasan: "Pejabat Pengawas atau pejabat lain yang setara di lingkungan Pusat, Provinsi, dan Kabupaten/Kota berwenang menjatuhkan Hukuman Disiplin bagi:",
-                pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untukjenis Hukuman Disiplin ringan;",
-                pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untukjenis Hukuman Disiplin ringan dan sedang; dan",
+                pihak1: "PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan;",
+                pihak2: "PNS di lingkungannya yang berada 2 (dua) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan dan sedang; dan",
                 pihak3: "Pejabat Fungsional di lingkungannya untuk jenis Hukuman Disiplin ringan."
             },
             {
-                penjelasan: "Dalam hal tidak terdapat jabatan pengawas pada unit kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Muda tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untukjenis Hukuman Disiplin ringan.",
+                penjelasan: "Dalam hal tidak terdapat jabatan pengawas pada unit kerja di lingkungan Pusat, Provinsi, dan Kabupaten/Kota, Pejabat Fungsional jenjang Ahli Muda tertentu dapat menjatuhkan Hukuman Disiplin bagi PNS di lingkungannya yang berada 1 (satu) tingkat di bawahnya untuk jenis Hukuman Disiplin ringan.",
             },
             {
-                penjelasan: "Pejabat Fungsional jenjang Ahli Muda tertentu ditetapkan dengan keputusan Pejabat Pembina Kepegawaian",
+                penjelasan: "Pejabat Fungsional jenjang Ahli Muda tertentu ditetapkan dengan keputusan Pejabat Pembina Kepegawaian.",
             }
         ]
     }
