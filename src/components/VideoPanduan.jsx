@@ -10,7 +10,7 @@ const VideoPanduan = () => {
                 </div>
             </Slide>
             <Slide direction="up">
-                <iframe title="Panduan Situs Web" className="mt-10 mb-10 w-[320px] h-[180px] mx-auto  md:w-[560px] md:h-[315px] lg:w-[640px] lg:h-[360px] " src="https://www.youtube.com/embed/GcwxS4woFVw">
+                <iframe title="Panduan Situs Web" className="mt-10 mb-10 w-[288px] h-[162px] mx-auto  md:w-[560px] md:h-[315px] lg:w-[640px] lg:h-[360px] " src="https://www.youtube.com/embed/GcwxS4woFVw">
                 </iframe>
             </Slide>
         </div>

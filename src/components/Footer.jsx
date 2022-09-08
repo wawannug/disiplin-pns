@@ -25,6 +25,12 @@ const Footer = () => {
                 <div className='font-bold'>
                     Saluran Pengaduan DJKN
                 </div>
+
+                <div className="flex my-1 flex-col md:flex-row">
+                    <span className="w-32 font-bold">Wise Kemenkeu</span>
+                    <span className="">www.wise.kemenkeu.go.id</span>
+                </div>
+
                 <div className="flex my-1 flex-col md:flex-row">
                     <span className="w-32 font-bold">Halo DJKN</span>
                     <span className="">150-991 / halodjkn.kemenkeu.go.id</span>
@@ -33,10 +39,7 @@ const Footer = () => {
                     <span className="w-32 font-bold">Email</span>
                     <span className="">pengaduan.djkn@kemenkeu.go.id</span>
                 </div>
-                <div className="flex my-1 flex-col md:flex-row">
-                    <span className="w-32 font-bold">Wise Kemenkeu</span>
-                    <span className="">www.wise.kemenkeu.go.id</span>
-                </div>
+
 
                 <div className="flex my-1 flex-col md:flex-row ">
                     <span className="w-32 font-bold">SP4N-LAPOR</span>

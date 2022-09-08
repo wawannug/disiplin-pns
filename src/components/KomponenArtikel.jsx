@@ -35,7 +35,7 @@ const KomponenArtikel = () => {
                 </div>
             </Slide>
             <JackInTheBox>
-                <div className=" shadow-lg shadow-slate-300 dark:shadow-none md:basis-2/3 w-full md:w-2/3 lg:w-5/6 relative" >
+                <div className=" shadow-lg shadow-slate-300 dark:shadow-none md:basis-2/3 w-full  lg:w-5/6 relative" >
                     <img
                         className="cursor-pointer"
                         onClick={() => navigate(daftarArtikel[move].link)}

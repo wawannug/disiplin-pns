@@ -14,7 +14,7 @@ const Artikel = () => {
                     ARTIKEL
                 </div>
             </Slide>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
                 {daftarArtikel.map((item) => (
                     <JackInTheBox>
                         <div

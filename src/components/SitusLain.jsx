@@ -10,7 +10,7 @@ const SitusLain = () => {
                 </div>
             </Slide>
 
-            <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 w-5/6 mx-auto">
+            <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16 w-2/3 mx-auto">
                 <div className="shadow-xl shadow-slate-300 dark:shadow-none basis-1/3">
                     <Slide direction="left">
 

@@ -18,14 +18,14 @@ const Peraturan = () => {
                     <div className="w-full">
                         <Fade duration="2000">
                             <a
-                                className="min-h-full flex flex-col text-center justify-center items-center h-40 bg-[#E6D147] hover:bg-[#718d38] dark:bg-[#0f172a] dark:text-white dark:outline dark:outline-white rounded-xl p-3"
+                                className="flex flex-col text-center justify-center min-h-full md:h-60 lg:h-60 xl:h-40 items-center bg-[#E6D147] hover:bg-[#718d38] dark:bg-[#0f172a] dark:text-white dark:outline dark:outline-white rounded-xl p-3"
                                 href={item.link}
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <div className="text-md font-bold">{item.peraturan}</div>
-                                <div className="text-md">tentang </div>
-                                <div className="text-md font-bold">{item.tentang}</div>
+                                <div className="text-sm font-bold">{item.peraturan}</div>
+                                <div className="text-sm">tentang </div>
+                                <div className="text-sm font-bold">{item.tentang}</div>
                             </a>
                         </Fade>
                     </div>

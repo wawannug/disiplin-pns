@@ -1,7 +1,7 @@
 import './App.css';
 import KomponenKewajiban from './components/KomponenKewajiban';
 import KomponenLarangan from './components/KomponenLarangan';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useParams } from 'react-router-dom'
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -20,6 +20,8 @@ import Templat from './pages/Templat';
 import Artikel1MasukKerja from './pages/Artikel/Artikel1MasukKerja';
 import Artikel4PedomanPelaksanaan from './pages/Artikel/Artikel4PedomanPelaksanaan';
 import Survei from './pages/Survei';
+import Artikel5ContohKasus from './pages/Artikel/Artikel5ContohKasus';
+import Artikel5Detail from './pages/Artikel/Artikel5Detail';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
         <Route path="artikel2" element={<Artikel2MatriksPerbedaan />} />
         <Route path="artikel3" element={<Artikel3TataCaraPemeriksaan />} />
         <Route path="artikel4" element={<Artikel4PedomanPelaksanaan />} />
+        <Route path="artikel5" element={<Artikel5ContohKasus />} />
+        <Route path="artikel5/:id" element={<Artikel5Detail />} />
         <Route path="survei" element={<Survei />} />
 
 
