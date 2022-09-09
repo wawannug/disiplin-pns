@@ -8,7 +8,7 @@ const Artikel = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="mt-20 mb-10 w-5/6 lg:w-2/3 mx-auto lg:h-screen flex flex-col justify-center items-center lg:justify-evenly dark:bg-[#0f172a]">
+        <div className="mt-20 mb-10 w-5/6 lg:w-2/3 mx-auto lg:min-h-screen flex flex-col justify-center items-center lg:justify-evenly dark:bg-[#0f172a]">
             <Slide direction="down">
                 <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                     ARTIKEL

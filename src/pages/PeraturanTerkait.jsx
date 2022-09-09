@@ -5,7 +5,7 @@ import { Slide, Zoom } from "react-awesome-reveal";
 const PeraturanTerkait = () => {
 
     return (
-        <div className="mt-16 w-full lg:h-screen flex flex-col justify-center items-center lg:justify-evenly dark:bg-[#0f172a]">
+        <div className="mt-16 w-full lg:min-h-screen flex flex-col justify-center items-center lg:justify-evenly dark:bg-[#0f172a]">
             <Slide direction="down">
                 <div className="m-10 text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                     PERATURAN TERKAIT

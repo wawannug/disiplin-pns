@@ -5,7 +5,7 @@ import { Slide, Zoom } from "react-awesome-reveal";
 const PokokBahasan = () => {
     const navigate = useNavigate()
     return (
-        <div className=" mt-10 w-full lg:h-screen flex flex-col justify-evenly dark:text-white">
+        <div className=" mt-10 w-full lg:min-h-screen flex flex-col justify-evenly dark:text-white">
             <Slide direction="down">
                 <div className="text-4xl md:text-6xl text-center font-Oranienbaum dark:text-white">
                     POKOK BAHASAN

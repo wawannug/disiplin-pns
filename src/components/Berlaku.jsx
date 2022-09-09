@@ -6,7 +6,7 @@ const Berlaku = () => {
     const [indeks, setIndeks] = useState(0);
 
     return (
-        <div className="mt-20 mb-10 min-h-screen md:5/6 lg:w-2/3 mx-auto md:h-screen dark:text-white dark:bg-[#0f172a]">
+        <div className="mt-20 mb-10 min-h-screen md:5/6 lg:w-2/3 mx-auto dark:text-white dark:bg-[#0f172a]">
             <h1 className="text-center text-2xl m-4 font-bold">BERLAKUNYA HUKUMAN DISIPLIN DAN PENDOKUMENTASIAN KEPUTUSAN HUKUMAN DISIPLIN</h1>
             <div className="flex justify-center flex-col md:flex-row text-center w-5/6 mx-auto md:w-full gap-4">
                 {berlaku.map((item) => (

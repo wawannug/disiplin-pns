@@ -23,4 +23,10 @@ export const daftarArtikel = [
         gambar: "https://drive.google.com/uc?export=view&id=1t-aQ11nyB5SwOPNgW-eehEqVxPtD8ZDz",
         link: "/artikel4"
     },
+    {
+        id: 5,
+        judul: "Contoh Kasus Disiplin Pegawai Negeri Sipil",
+        gambar: "https://drive.google.com/uc?export=view&id=1twBYaonnN9dN4KI4vdEyCkQ0heSb9PV5",
+        link: "/artikel5"
+    },
 ]
