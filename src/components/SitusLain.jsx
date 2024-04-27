@@ -17,7 +17,9 @@ const SitusLain = () => {
                         <a href="https://sites.google.com/view/upgeselon1djkn/"
                             target="_blank"
                             rel="noreferrer" >
-                            <img className="hover:scale-110 duration-300 hover:rounded-2xl" src="https://drive.google.com/uc?export=view&id=15gmtn66syNTYrzH6Ulu_Gak4qmJPbGds" alt="informasi pengaduan gratifikasi" />
+                            <img className="hover:scale-110 duration-300 hover:rounded-2xl"
+                                src={require('../assets/images/informasi-pengaduan-gratifikasi.png')}
+                                alt="informasi pengaduan gratifikasi" />
                         </a>
                     </Slide>
                 </div>
@@ -26,7 +28,8 @@ const SitusLain = () => {
                         <a href="http://sites.google.com/view/ziwbksekretariatdjkn/"
                             target="_blank"
                             rel="noreferrer" >
-                            <img className='hover:scale-110 duration-300 hover:rounded-2xl' src="https://drive.google.com/uc?export=view&id=1pgBwtPhmx7RGtFRRZ-46bRFc1MpfNPD-" alt="zona integritas wbk" />
+                            <img className='hover:scale-110 duration-300 hover:rounded-2xl'
+                                src={require('../assets/images/informasi-zona-integritas.png')} alt="zona integritas wbk" />
                         </a>
                     </Slide>
                 </div>

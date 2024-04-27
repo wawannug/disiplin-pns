@@ -36,11 +36,13 @@ const KomponenArtikel = () => {
             </Slide>
             <JackInTheBox>
                 <div className=" shadow-lg shadow-slate-300 dark:shadow-none md:basis-2/3 w-full lg:w-5/6 relative" >
-                    <img
-                        className="cursor-pointer"
-                        onClick={() => navigate(daftarArtikel[move].link)}
-                        src={daftarArtikel[move].gambar}
-                        alt={daftarArtikel[move.judul]} />
+                    {daftarArtikel[move].gambar &&
+                        <img
+                            className="cursor-pointer"
+                            onClick={() => navigate(daftarArtikel[move].link)}
+                            src={require('../assets/images/' + daftarArtikel[move].gambar + '.jpg')}
+                            alt={daftarArtikel[move.judul]} />
+                    }
                     <button
                         className="absolute top-1/2 mx-1 px-3 bg-white rounded-full outline outline-1"
                         onClick={prevHandler}
